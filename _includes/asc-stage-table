@@ -1,0 +1,69 @@
+{% comment %}
+ASC Stage Chart Generator
+{% endcomment %}{% assign class = include.class %}{% assign stage = include.stage %}
+{% assign name = "" | split: ',' %}
+{% assign type = "" | split: ',' %}
+{% assign miles = "" | split: ',' %}
+{% for team in site.data.asc.[stage].[class] %}
+	{% if team.team == "data" %}
+		{% if team.number == "name" %}
+			{% for item in team | offset:5 %}
+				{% assign name = name | push:item[1] %}
+			{% endfor %}
+		{% elsif team.number == "type" %}
+			{% for item in team | offset:5 %}
+				{% assign type = type | push:item[1] %}
+			{% endfor %}
+		{% elsif team.number == "miles" %}
+			{% for item in team | offset:5 %}
+				{% assign miles = miles | push:item[1] %}
+			{% endfor %}
+		{% endif %}
+	{% endif %}
+{% endfor %}
+<table class="asc-stage" style="margin:auto; border: 1px solid;">
+<thead>
+	<tr>
+		<th>Team</th>
+		<th>Trailering</th>
+		<th>Base Miles</th>
+		<th>Loop Miles</th>
+		<th>Penalty Miles</th>
+		<th>Total Miles</th>
+		<th>Official Time</th>
+		<th>Avg. MPH</th>
+	</tr>
+</thead>
+<tbody>
+{% for team in site.data.asc.[stage].[class] %}
+	{% if team.team != "data" %}
+		{% assign baseMiles = 0 %}
+		{% assign loopMiles = 0 %}
+		{% for item in team offset:5 %}
+			{% if type[forloop.index0] == "base" %}
+				{% assign baseMiles = baseMiles | plus:item[1] %}
+			{% else %}
+				{% assign loopMiles =  item[1] | times:miles[forloop.index0] | plus:loopMiles %}
+			{% endif %}
+		{% endfor %}
+		{% assign totalMiles = baseMiles | plus:loopMiles %}
+		{% assign timeArr = team.time | split:":" %}
+		{% assign hours = timeArr[0] %}
+		{% assign hours = timeArr[1] | divided_by:60.0 |plus: hours %}
+		{% assign hours = timeArr[2] | divided_by:3600.0 |plus: hours %}
+		{% assign speed = totalMiles | divided_by:hours | round:1 %}
+		{% assign totalMiles = totalMiles | minus:team.penalty %}
+		<tr>
+		<td> <b>#{{team.number}} - {{team.team}} </b></td>
+		<td> {{team.trailer}} </td>
+		<td> {{baseMiles}} </td>
+		<td> {{loopMiles}} </td>
+		<td> {{team.penalty}} </td>
+		<td> {{totalMiles}} </td>
+		<td> {{team.time}} </td>
+		<td> {{speed}} mph </td>
+		</tr>
+	{% endif %}
+{% endfor %}
+</tbody>
+</table>

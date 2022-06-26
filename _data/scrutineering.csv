@@ -1,0 +1,11 @@
+team,number,1,2,3,4,5,6,7,8,9,10,11,12
+title,,Driver Registration,Driver Operations,Lights & Vision,Body & Sizing,Electrical,Battery Protection,Mechanical,Dynamics,Array Testing,Safety,Support,MOV
+team name,10,G,G,Y,B ,G,R,G,,,,,N
+demo team,20,G,Y,G,Y,R,R,R,,,,R,N
+another team,30,G,R,B,Y,B,Y,B,Y,,,Y,G
+team,40,G,G,G,G,G,G,Y,G,G,G,G,N
+state team,50,,G,R,B ,G,B ,,B,,,N,N
+random team,60,,G,Y,G,Y,,Y,,,,,
+college team,70,G,Y,G,G,R,,,G,,,B,N
+different team,80,,,R,R,G,,Y,B,,,B,
+modified,16 Jun 2022 – 8pm US Central,,,,,,,,,,,,

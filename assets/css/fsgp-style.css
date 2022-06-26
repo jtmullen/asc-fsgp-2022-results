@@ -1,0 +1,48 @@
+
+#line-chart-sov {
+  height: 400px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #f6f6f6;
+   --color-1: #4363d8;
+   --color-2: #e6194B;
+   --color-3: #ffe119;
+   --color-4: #000075;
+   --color-5: #a9a9a9;
+   --color-6: #f58231;
+   --color-7: #fffac8;
+   --color-8: #dcbeff;
+   --color-9: #469990;
+   --color-10: #000000;   
+}
+
+#legend-example-2 {
+  margin: 0 auto;
+  max-width: 900px;
+}
+#legend-example-2 .column {
+  height: 200px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+#legend-example-2 .legend {
+  margin-top: 20px;
+  justify-content: space-between;
+   --color-1: #4363d8;
+   --color-2: #e6194B;
+   --color-3: #ffe119;
+   --color-4: #000075;
+   --color-5: #a9a9a9;
+   --color-6: #f58231;
+   --color-6: #f58231;
+   --color-7: #fffac8;
+   --color-8: #dcbeff;
+   --color-9: #469990;
+   --color-10: #000000;   
+}
+
+.tg th, tr {border: 1px solid;}
+.tg td {
+  border-right: solid 1px #8a8a8a; 
+  border-left: solid 1px #8a8a8a;
+}

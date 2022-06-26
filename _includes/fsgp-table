@@ -1,0 +1,53 @@
+{% comment %}
+FSGP Heat Table Generator
+{% endcomment %}{% assign class = include.class %}
+{%if class != "sov" and class != "mov" %} <i>Error generating Chart</i>
+{% else %}
+<link rel="stylesheet" href="{{site.baseurl}}/assets/css/fsgp-style.css">
+<table class="tg" style="margin:auto; border: 1px solid;">
+<thead>
+  <tr>
+  <th> Team </th>
+  {% for team in site.data.fsgp.[class] %}
+	{% if team.team == "labels" %}
+		{% for item in team offset:4 %}
+			<th> {{item[1]}} </th>
+		{% endfor %}
+	{% endif %}
+  {% endfor %}
+  <th> Penalty </th>
+  <th> Total </th>
+  <th> Avg. Speed </th>
+  <th> Fastest </th>
+  </tr>
+</thead>
+<tbody>
+{% for team in site.data.fsgp.[class] %}
+	{% if team.team != "labels" %}
+		<tr style="background-color:#fafafa;"><td style="font-weight:bold;">#{{team.number}} - {{team.team}} </td>
+		{% assign totalLaps = 0 %}
+		{% assign totalTime = 0 %}
+		{% for item in team offset:4 %}
+			{% assign currentLaps = item[1] | plus:0 %}
+			{% if currentLaps > 0 %}
+				{% assign totalTime = totalTime | plus:4 %}
+			{% endif %}
+			{% assign totalLaps = totalLaps | plus:item[1] %}
+			<td style="background-color:rgba(183, 144, 1, calc({{currentLaps}}/40))">{{totalLaps}}</td> 
+		{% endfor %}
+		{% if totalTime == 0 %}
+			{% assign speed = 0 %}
+		{% else %}
+			{% assign speed = totalLaps | times:2.5 | divided_by:totalTime | round:1 %}
+		{% endif %}
+		<td>{{team.penalty}}</td>
+		{% assign totalLaps = totalLaps | minus:team.penalty %}
+		<td>{{totalLaps}}</td>
+		<td>{{speed}} mph</td>
+		<td>{{team.fastest}}</td>
+		</tr>
+	{% endif %}
+{% endfor %}
+</tbody>
+</table>
+{% endif %}
