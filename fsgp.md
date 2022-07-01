@@ -22,11 +22,7 @@ FSGP 2022 is 3 days of racing on the 2.5 mile road course at [Heartland Motorspo
 In the Single Occupant Class vehicles are scored solely on laps completed. The team with the most laps (minus penalty laps) at the end of the three days wins!
 
 
-{% include fsgp-lap class="sov" %}
-<br>
-<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i></div>
-{% include fsgp-table class="sov" %}
-<div style="margin:auto; text-align:center;"> <b>Darkers Cells Indicate Teams Completing More Laps </b> </div>
+RESULTS COMING SOON!
 
 -----
 ## Multi Occupant Class
@@ -37,15 +33,11 @@ In the Multi-Occupant Class vehicles are scored on a number of factors including
 - External Energy Usage (MOV cars can charge from non-solar sources, the amount of charging factors into the score)
 
 
-{% include fsgp-lap class="mov" %}
-<br>
-<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i></div>
-{% include fsgp-table class="mov" %}
-<div style="margin:auto; text-align:center;"> <b>Darkers Cells Indicate Teams Completing More Person Laps </b> </div>
+RESULTS COMING SOON!
 
 ## MOV Score
 
-//TODO
+SCORES COMING SOON!
 
 
 ### Scoring Formula

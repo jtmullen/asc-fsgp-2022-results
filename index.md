@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Home
-landing-title: 'Happening Now: Team Preparations'
+title: #ASC2022
+landing-title: 'Happening Now: Scrutineering'
 currently: ''
 description: null
 image: null

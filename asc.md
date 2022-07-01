@@ -44,10 +44,5 @@ Optional Loops:
 - Topeka Loop: *43 miles*
 - Grand Island Loop: *21 miles*
 
-<div style="margin:auto">
-{% include asc-stage-chart stage="stage1" class="sov" %}
-</div>
-<br>&nbsp;<br>
-<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i></div>
-{% include asc-stage-table stage="stage1" class="sov" %}
+RESULTS COMING SOON!
 
