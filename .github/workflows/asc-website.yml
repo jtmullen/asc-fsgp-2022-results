@@ -1,4 +1,4 @@
-name: Deploy to ASC Site Branch
+name: Deploy to ASC Site
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  github-pages:
+  asc-site-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Source Repo
