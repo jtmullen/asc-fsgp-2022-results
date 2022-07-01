@@ -1,24 +1,24 @@
 team,number,1,2,3,4,5,6,7,8,9,10,11,12
 title,,Driver Registration,Driver Operations,Lights & Vision,Body & Sizing,Electrical,Battery Protection,Mechanical,Dynamics,Array Testing,Safety,ASC Support,MOV
 Kentucky,3,G,,Y,,,,,,G,,,N
-MIT,4,G,G,,,R,,Y,,,,,N
+MIT,4,G,G,,Y,R,,Y,,,,,N
 Florida,5,,,,,,,,,,,N,N
-"California, Berkeley",6,,,Y,,G,,,,,,,N
+"California, Berkeley",6,G,,Y,,G,G,,,G,,,N
 UT Austin,8,,,,,,,,,,,N,N
-Iowa State,9,G,G,Y,G,G,Y,,,,,,
+Iowa State,9,G,G,Y,G,G,Y,Y,,,,,
 Michigan State,13,,,,,Y,,R,,,,N,
-Illinois State,17,,,,,Y,,Y,,G,,N,N
-Illinois  ,22,G,G,G,G,G,,Y,,,,,N
+Illinois State,17,G,G,,,Y,,Y,,G,,N,N
+Illinois  ,22,G,G,G,G,G,G,Y,,G,,,N
 British Columbia,26,,,,,,,,,,,N,N
-Principia,32,,,,,,,R,,G,,,N
-Minnesota,35,G,G,,,G,G,Y,,,,,
+Principia,32,G,,Y,,,,R,,G,,,N
+Minnesota,35,G,G,,G,G,G,Y,,,,,
 Georgia Tech,49,,,,R,,,,,,,N,N
-Poly Montreal,55,G,G,Y,G,,,Y,,,,,
+Poly Montreal,55,G,G,Y,G,Y,,Y,,G,,,
 Calgary,65,,,,,G,G,,,G,,N,
 Virginia,87,,,,,,,,,,,N,N
-NC State,99,,,,,,,,,,,N,
-ETS,101,,,,,,,,,G,,,N
+NC State,99,,,,G,,,,,,,N,
+ETS,101,G,R,,,,,,,G,,,N
 Kansas,785,,,,,,,,,,,N,N
 Western Michigan,786,,,,,,,R,,,,N,N
 App State,828,,,,,,,,,,,,
-modified,1 July 2022 – 5:00pm US Central,,,,,,,,,,,,
+modified,1 July 2022 – 6:15pm US Central,,,,,,,,,,,,
