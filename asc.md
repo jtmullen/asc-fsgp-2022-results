@@ -1,7 +1,7 @@
 ---
 title: American Solar Challenge
 layout: page-fullwidth
-description: '1500+ miles on the road following the Oregon National Historic Trail!'
+description: '1400+ miles on the road following the Oregon National Historic Trail!'
 image: assets/images/minnesota_road.jpg
 nav-menu: true
 ---
