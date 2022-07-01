@@ -36,7 +36,7 @@ jobs:
       - name: Deploy to ASC Site
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-            local-dir: "./_build_"
+            local-dir: "./_build_/"
             server-dir: "public_html/the-competition/2022-american-solar-challenge/results/"
             server: ftp.americansolarchallenge.org
             username: results2022@americansolarchallenge.org
