@@ -1,19 +1,19 @@
 team,number,1,2,3,4,5,6,7,8,9,10,11,12
 title,,Driver Registration,Driver Operations,Lights & Vision,Body & Sizing,Electrical,Battery Protection,Mechanical,Dynamics,Array Testing,Safety,ASC Support,MOV
-Kentucky,3,G,,,,,,,,G,,,N
-MIT,4,,,,,R,,,,,,,N
+Kentucky,3,G,,Y,,,,,,G,,,N
+MIT,4,,,,,R,,Y,,,,,N
 Florida,5,,,,,,,,,,,N,N
 "California, Berkeley",6,,,,,,,,,,,,N
 UT Austin,8,,,,,,,,,,,N,N
-Iowa State,9,G,G,,,,,,,,,,
+Iowa State,9,G,G,,G,,,,,,,,
 Michigan State,13,,,,,,,,,,,N,
 Illinois State,17,,,,,,,,,,,N,N
-Illinois  ,22,G,,,,,,Y,,,,,N
+Illinois  ,22,G,G,,,,,Y,,,,,N
 British Columbia,26,,,,,,,,,,,N,N
 Principia,32,,,,,,,,,,,,N
-Minnesota,35,,,,,Y,,,,,,,
+Minnesota,35,,,,,G,G,,,,,,
 Georgia Tech,49,,,,R,,,,,,,N,N
-Poly Montreal,55,,,,,,,R,,,,,
+Poly Montreal,55,G,,,,,,R,,,,,
 Calgary,65,,,,,G,G,,,,,N,
 Virginia,87,,,,,,,,,,,N,N
 NC State,99,,,,,,,,,,,N,
@@ -21,4 +21,4 @@ ETS,101,,,,,,,,,,,,N
 Kansas,785,,,,,,,,,,,N,N
 Western Michigan,786,,,,,,,R,,,,N,N
 App State,828,,,,,,,,,,,,
-modified,1 July 2022 – 1pm US Central,,,,,,,,,,,,
+modified,1 July 2022 – 2:15pm US Central,,,,,,,,,,,,
