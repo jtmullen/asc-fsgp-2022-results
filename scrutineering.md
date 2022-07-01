@@ -1,6 +1,7 @@
 ---
 layout: page-fullwidth
 title: Scrutineering
+header: no
 description: "4 days of Tech Inspections and Dynamic Tests"
 image: assets/images/calsol_inspection.jpg
 nav-menu: true
