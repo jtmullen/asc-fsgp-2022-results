@@ -1,0 +1,43 @@
+name: Deploy to ASC Site Branch
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  github-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Repo
+        uses: actions/checkout@v2
+        
+      - name: Cache Dependencies
+        uses: actions/cache@v2
+        with:
+            path: vendor/bundle
+            key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+            restore-keys: |
+                ${{ runner.os }}-gems-
+        
+      - name: Build
+        uses:  jeffreytse/jekyll-deploy-action@v0.3.1
+        with:
+          provider: 'github'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: 'asc-site'
+      
+      - name: Checkout ASC Site 
+        uses: actions/checkout@v2
+        with: 
+            ref: 'asc-site'
+            path: '_build_'
+      
+      - name: Deploy to ASC Site
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        with:
+            local-dir: "./_build_"
+            server-dir: "public_html/the-competition/2022-american-solar-challenge/results/"
+            server: ftp.americansolarchallenge.org
+            username: results2022@americansolarchallenge.org
+            password: ${{ secrets.ResultsPW22 }}
