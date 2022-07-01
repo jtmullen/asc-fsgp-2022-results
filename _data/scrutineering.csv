@@ -5,20 +5,20 @@ MIT,4,,,,,R,,Y,,,,,N
 Florida,5,,,,,,,,,,,N,N
 "California, Berkeley",6,,,,,,,,,,,,N
 UT Austin,8,,,,,,,,,,,N,N
-Iowa State,9,G,G,,G,,,,,,,,
+Iowa State,9,G,G,Y,G,,,,,,,,
 Michigan State,13,,,,,,,,,,,N,
-Illinois State,17,,,,,,,,,,,N,N
-Illinois  ,22,G,G,,,,,Y,,,,,N
+Illinois State,17,,,,,,,Y,,G,,N,N
+Illinois  ,22,G,G,,G,,,Y,,,,,N
 British Columbia,26,,,,,,,,,,,N,N
 Principia,32,,,,,,,,,,,,N
-Minnesota,35,,,,,G,G,,,,,,
+Minnesota,35,,,,,G,G,Y,,,,,
 Georgia Tech,49,,,,R,,,,,,,N,N
-Poly Montreal,55,G,,,,,,R,,,,,
-Calgary,65,,,,,G,G,,,,,N,
+Poly Montreal,55,G,G,,,,,Y,,,,,
+Calgary,65,,,,,G,G,,,G,,N,
 Virginia,87,,,,,,,,,,,N,N
 NC State,99,,,,,,,,,,,N,
 ETS,101,,,,,,,,,,,,N
 Kansas,785,,,,,,,,,,,N,N
 Western Michigan,786,,,,,,,R,,,,N,N
 App State,828,,,,,,,,,,,,
-modified,1 July 2022 – 2:15pm US Central,,,,,,,,,,,,
+modified,1 July 2022 – 3:10pm US Central,,,,,,,,,,,,
