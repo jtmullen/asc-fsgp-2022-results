@@ -19,7 +19,7 @@
 
 @media (max-width: 479px) {
     #stacked-example-2 {
-        font-size: 750px;
+        height: 750px;
     }
 }
 
