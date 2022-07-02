@@ -16,6 +16,13 @@
   --labels-size: 120px;
   --labels-align: flex-end;
 }
+
+@media (max-width: 479px) {
+    #stacked-example-2 {
+        font-size: 750px;
+    }
+}
+
 #stacked-example-2 caption {
   font-weight: bold;
 }
