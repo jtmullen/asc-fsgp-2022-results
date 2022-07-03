@@ -20,6 +20,7 @@
 @media (max-width: 479px) {
     #stacked-example-2 {
         height: 750px;
+		passing-left: 30px;
     }
 }
 
