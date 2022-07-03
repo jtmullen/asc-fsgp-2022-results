@@ -3,7 +3,7 @@ title,,Driver Registration,Driver Operations,Lights & Vision,Body & Sizing,Elect
 Kentucky,3,G,G,Y,B,Y,G,,,G,Y,,N
 MIT,4,G,G,Y,Y,Y,Y,G,,G,G,,N
 Florida,5,G,,,,,,,,G,G,N,N
-Berkeley,6,G,G,Y,,G,G,,,G,G,,N
+Berkeley,6,G,G,Y,G,G,G,,,G,G,,N
 UT Austin,8,G,,,,,,,,,G,N,N
 Iowa State,9,G,G,Y,G,G,Y,Y,,,G,,
 Michigan State,13,G,G,Y,,Y,R,R,,,G,N,
@@ -12,13 +12,13 @@ Illinois  ,22,G,G,G,G,G,G,G,G,G,G,,N
 British Columbia,26,G,G,Y,G,,,Y,,,R,N,N
 Principia,32,G,G,Y,,G,,R,,G,G,,N
 Minnesota,35,G,G,Y,G,G,G,Y,,,G,,
-Georgia Tech,49,G,,,R,Y,G,,,G,G,N,N
-Poly Montreal,55,G,G,Y,G,G,G,G,,G,G,,
+Georgia Tech,49,G,,G,R,Y,G,,,G,G,N,N
+Poly Montreal,55,G,G,G,G,G,G,G,,G,G,,
 Calgary,65,G,G,Y,Y,G,G,Y,,G,G,N,
-Virginia,87,G,G,,,R,,R,,,G,N,N
+Virginia,87,G,G,Y,,R,,R,,,G,N,N
 NC State,99,G,G,G,G,Y,,Y,,,G,N,
-ETS,101,G,G,,G,Y,,,,G,G,,N
+ETS,101,G,G,Y,G,Y,,,,G,G,,N
 Kansas,785,G,,,,Y,,,,,G,N,N
-Western Michigan,786,G,,,,Y,,R,,G,R,N,N
-App State,828,G,Y,,G,Y,,Y,,,G,,
-modified,2 July 2022 – 6:45pm US Central,,,,,,,,,,,,
+Western Michigan,786,G,,,Y,Y,,R,,G,R,N,N
+App State,828,G,Y,G,G,Y,G,Y,,,G,,
+modified,2 July 2022 – 7:15pm US Central,,,,,,,,,,,,
