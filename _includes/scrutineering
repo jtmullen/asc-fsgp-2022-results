@@ -60,7 +60,7 @@ Scrutineering Status Generator
 				{% assign ttwhite = ttwhite | push:tooltips[forloop.index0] %}
 			{% endif %}
 		{% endfor %}
-		<td style="--size: calc({{greens}} / 12);"><span class="data"> {% assign order = team.order | plus:0 %}{% if order > 0 %}<i>FSGP Qualified</i> - <b>Start Position: {{team.order}}</b>&nbsp;&nbsp;&nbsp;{% endif %} </span><span class="tooltip">{% for title in ttgreen %} {{title}}<br>{% endfor %}</span></td>
+		<td style="--size: calc({{greens}} / 12);"><span class="data"> {% assign order = team.order | plus:0 %}{% if order > 0 %}<b>FSGP Position: {{team.order}}</b>&nbsp;&nbsp;&nbsp;{% endif %} </span><span class="tooltip">{% for title in ttgreen %} {{title}}<br>{% endfor %}</span></td>
 		<td style="--size: calc({{blues}} / 12);"><span class="data"> </span><span class="tooltip">{% for title in ttblue %} {{title}}<br>{% endfor %}</span></td>
 		<td style="--size: calc({{yellows}} / 12);"><span class="data"> </span><span class="tooltip">{% for title in ttyellow %} {{title}}<br>{% endfor %}</span></td>
 		<td style="--size: calc({{reds}} / 12);"><span class="data"> </span><span class="tooltip">{% for title in ttred %} {{title}}<br>{% endfor %}</span></td>
