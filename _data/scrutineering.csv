@@ -1,24 +1,24 @@
 team,number,order,1,2,3,4,5,6,7,8,9,10,11,12
 title,,,Driver Registration,Driver Operations,Lights & Vision,Body & Sizing,Electrical,Battery Protection,Mechanical,Dynamics,Array Testing,Safety,ASC Support,MOV
 Kentucky,3,5,G,G,G,B,G,G,G,G,G,G,,N
-MIT,4,3,G,G,G,G,G,G,G,G,G,G,,N
-Florida,5,,G,Y,Y,R,Y,,,,G,G,N,N
-Berkeley,6,,G,Y,G,G,G,G,G,,G,G,,N
+MIT,4,3,G,G,G,G,G,G,G,G,G,G,G,N
+Florida,5,,G,G,Y,R,G,,,,G,G,N,N
+Berkeley,6,8,G,Y,G,G,G,G,G,G,G,G,,N
 UT Austin,8,,G,,,B,R,,,,G,G,N,N
-Iowa State,9,,G,G,G,G,G,Y,G,G,G,G,,
+Iowa State,9,7,G,G,G,G,G,G,G,G,G,G,,G
 Michigan State,13,,G,G,Y,G,Y,R,R,,G,G,N,
 Illinois State,17,,G,G,Y,Y,Y,Y,Y,,G,G,N,N
 Illinois  ,22,1,G,G,G,G,G,G,G,G,G,G,G,N
 British Columbia,26,,G,G,Y,G,Y,G,Y,,G,G,N,N
-Principia,32,,G,G,Y,Y,G,G,G,,G,G,,N
+Principia,32,,G,G,G,Y,G,G,G,G,G,G,G,N
 Minnesota,35,2,G,G,G,G,G,G,G,G,G,G,G,G
-Georgia Tech,49,,G,G,G,G,G,G,G,,G,G,N,N
+Georgia Tech,49,6,G,G,G,G,G,G,G,G,G,G,N,N
 Poly Montreal,55,4,G,G,G,G,G,G,G,G,G,G,,G
 Calgary,65,,G,G,Y,Y,G,G,G,G,G,G,N,
 Virginia,87,,G,G,Y,G,G,,R,,G,G,N,N
-NC State,99,,G,G,G,G,G,,Y,,G,G,N,
+NC State,99,,G,G,G,G,G,G,Y,,G,G,N,
 ETS,101,,G,G,Y,G,B,G,,,G,G,,N
 Kansas,785,,G,,,Y,Y,,Y,,,G,N,N
-Western Michigan,786,,G,G,Y,B,G,G,R,,G,G,N,N
-App State,828,,G,Y,G,G,Y,G,Y,,G,G,,
-modified,4 July 2022 – 1:15pm US Central,,,,,,,,,,,,,
+Western Michigan,786,,G,G,Y,B,G,G,Y,G,G,G,N,N
+App State,828,,G,Y,G,G,Y,G,Y,G,G,G,,G
+modified,4 July 2022 – 3:45pm US Central,,,,,,,,,,,,,
