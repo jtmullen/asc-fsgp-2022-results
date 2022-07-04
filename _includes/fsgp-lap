@@ -37,9 +37,9 @@ FSGP Lap Chart Generator
 	{% assign axis = 1 %}
 {% endif %}
 {% if class == "sov" %}
-	{% assign caption = "Single Occupant Lap Counts" %}
+	{% assign caption = "Single Occupant Lap Counts (<i>Each cross axis is 50 laps)</i>)" %}
 {% else %}
-	{% assign caption = "Multi Occupant Lap Counts" %}
+	{% assign caption = "Multi Occupant Lap Counts (<i>Each cross axis is 50 laps)</i>)" %}
 {% endif %}
 {% assign titles = "" | split: ',' %}
 <link rel='stylesheet' href='{{site.baseurl}}/assets/css/charts.min.css'><link rel="stylesheet" href="{{site.baseurl}}/assets/css/fsgp-style.css"><div id="legend-example-2">
@@ -95,5 +95,4 @@ FSGP Lap Chart Generator
 	{% endfor %}
   </ul>
  </div>
- <i>Each cross line indicates 50 laps</i>
 {% endif %}
