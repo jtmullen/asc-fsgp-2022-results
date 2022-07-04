@@ -44,8 +44,9 @@ In the Multi-Occupant Class vehicles are scored on a number of factors including
 <div style="margin:auto; text-align:center;"> <b>Darkers Cells Indicate Teams Completing More Person Laps </b> </div>
 
 ## MOV Score
-**Note that scores only become official at the end of the competition**
+<i>Note that scores only become official at the end of the competition</i>
 
+<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i></div>
 {% include fsgp-score-table %}
 
 ### Scoring Formula

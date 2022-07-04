@@ -1,5 +1,5 @@
 {% comment %}
-FSGP Heat Table Generator
+FSGP MOV Table Generator
 {% endcomment %}
 <link rel="stylesheet" href="{{site.baseurl}}/assets/css/fsgp-style.css">
 <table class="score-table" style="margin:auto; border: 1px solid 0x000000;">
