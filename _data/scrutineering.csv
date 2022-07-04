@@ -1,6 +1,6 @@
 team,number,order,1,2,3,4,5,6,7,8,9,10,11,12
 title,,,Driver Registration,Driver Operations,Lights & Vision,Body & Sizing,Electrical,Battery Protection,Mechanical,Dynamics,Array Testing,Safety,ASC Support,MOV
-Kentucky,3,5,G,G,G,B,G,G,G,G,G,G,,N
+Kentucky,3,5,G,G,G,G,G,G,G,G,G,G,,N
 MIT,4,3,G,G,G,G,G,G,G,G,G,G,G,N
 Florida,5,,G,G,Y,R,G,,,,G,G,N,N
 Berkeley,6,8,G,Y,G,G,G,G,G,G,G,G,,N
