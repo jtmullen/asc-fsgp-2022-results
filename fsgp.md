@@ -45,7 +45,37 @@ In the Multi-Occupant Class vehicles are scored on a number of factors including
 
 ## MOV Score
 
-SCORES COMING SOON!
+ <table class="charts-css bar show-heading show-data-on-hover show-primary-axis" style="height: 200px;">
+        <caption>Years Compared</caption>
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th>Progress</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row"> 2016 </th>
+            <td style="--size: 0.2;"> <span class="data">20</span> <span class="tooltip">data: 20<br>more info</span> </td>
+          </tr>
+          <tr>
+            <th scope="row"> 2017 </th>
+            <td style="--size: 0.4;"> <span class="data">40</span> <span class="tooltip">data: 40<br>more info</span> </td>
+          </tr>
+          <tr>
+            <th scope="row"> 2018 </th>
+            <td style="--size: 0.6;"> <span class="data">60</span> <span class="tooltip">data: 60<br>more info</span> </td>
+          </tr>
+          <tr>
+            <th scope="row"> 2019 </th>
+            <td style="--size: 0.8;"> <span class="data">80</span> <span class="tooltip">data: 80<br>more info</span> </td>
+          </tr>
+          <tr>
+            <th scope="row"> 2020 </th>
+            <td style="--size: 1.0;"> <span class="data">100</span> <span class="tooltip">data: 100<br>more info</span> </td>
+          </tr>
+        </tbody>
+      </table>
 
 
 ### Scoring Formula
