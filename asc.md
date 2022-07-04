@@ -16,7 +16,7 @@ The 2022 Event is once again a distance-based competition. The primary goal is t
 ### Single Occupant Class
 The single occupant class is scored solely on miles driven. The team that completes the most miles will win the event. Stage winners are also determined by miles driven on that stage. In the event of a tie, elapsed time is the tie-breaker. 
 
-### Mutli Occupant Class
+### Multi-Occupant Class
 Multi-Occupant vehicles are scored on a variety of factors including person-miles driven, their practicality score, amount of external energy used, and whether they maintain the 35mph target speed. For the overall event winner all of these factors are used. For individual stage winners only person-miles and target speed are considered. The specific formula is listed at the bottom of this page. 
 
 
