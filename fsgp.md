@@ -45,37 +45,247 @@ In the Multi-Occupant Class vehicles are scored on a number of factors including
 
 ## MOV Score
 
- <table class="charts-css radial show-heading show-labels show-data-on-hover show-primary-axis show-data-axes show-10-secondary-axes">
-        <caption>Years Compared</caption>
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>Progress</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row"> 1 </th>
-            <td style="--start: 0.1; --end: 0.4;"> <span class="data">40</span> <span class="tooltip">data: 40<br>more info</span> </td>
-          </tr>
-          <tr>
-            <th scope="row"> 2 </th>
-            <td style="--start: 0.4; --end: 0.8;"> <span class="data">80</span> <span class="tooltip">data: 80<br>more info</span> </td>
-          </tr>
-          <tr>
-            <th scope="row"> 3 </th>
-            <td style="--start: 0.8; --end: 0.6;"> <span class="data">60</span> <span class="tooltip">data: 60<br>more info</span> </td>
-          </tr>
-          <tr>
-            <th scope="row"> 4 </th>
-            <td style="--start: 0.6; --end: 1.0;"> <span class="data">100</span> <span class="tooltip">data: 100<br>more info</span> </td>
-          </tr>
-          <tr>
-            <th scope="row"> 6 </th>
-            <td style="--start: 1.0; --end: 0.3;"> <span class="data">30</span> <span class="tooltip">data: 30<br>more info</span> </td>
-          </tr>
-        </tbody>
-      </table>
+<table id="stacked-example-3" class="charts-css column hide-data show-heading show-labels show-primary-axis show-2-secondary-axes data-spacing-2 multiple stacked">
+  <caption> Iowa State </caption>
+  <thead>
+    <tr>
+      <th scope="col"> Minnesota </th>
+      <th scope="col"> #1 </th>
+      <th scope="col"> #2 </th>
+      <th scope="col"> #3 </th>
+      <th scope="col"> #4 </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"> </th>
+      <td style="--size: 0.5; --color: rgba(0,0,0,0);"><span class="data"> 30$ </span></td>
+      <td style="--size: 0.25;"><span class="data"> 30$ </span></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td style="--size: 0.5; --color: rgba(0,0,0,0);"><span class="data"> 30$ </span></td>
+      <td style="--size: calc(30 / 150);"><span class="data"> 30$ </span></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td style="--size: 0.25; --color: rgba(0,0,0,0);"><span class="data"> 30$ </span></td>
+      <td style="--size: 0.25;"><span class="data"> 30$ </span></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td style="--size: 0.5; --color: rgba(0,0,0,0);"><span class="data"> 30$ </span></td>
+      <td style="--size: 0.1;"><span class="data"> 30$ </span></td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table id="stacked-example-3" class="charts-css column hide-data show-heading show-labels show-primary-axis show-2-secondary-axes data-spacing-2 multiple stacked">
+  <caption> Mich State </caption>
+  <thead>
+    <tr>
+      <th scope="col"> Minnesota </th>
+      <th scope="col"> #1 </th>
+      <th scope="col"> #2 </th>
+      <th scope="col"> #3 </th>
+      <th scope="col"> #4 </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"> </th>
+      <td style="--size: 0.5; --color: rgba(0,0,0,0);"><span class="data"> 30$ </span></td>
+      <td style="--size: 0.25;"><span class="data"> 30$ </span></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td style="--size: 0.5; --color: rgba(0,0,0,0);"><span class="data"> 30$ </span></td>
+      <td style="--size: calc(30 / 150);"><span class="data"> 30$ </span></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td style="--size: 0.25; --color: rgba(0,0,0,0);"><span class="data"> 30$ </span></td>
+      <td style="--size: 0.25;"><span class="data"> 30$ </span></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td style="--size: 0.5; --color: rgba(0,0,0,0);"><span class="data"> 30$ </span></td>
+      <td style="--size: 0.1;"><span class="data"> 30$ </span></td>
+    </tr>
+  </tbody>
+</table>
+
+<table id="stacked-example-3" class="charts-css column hide-data show-heading show-labels show-primary-axis show-2-secondary-axes data-spacing-2 multiple stacked">
+  <caption> Minnesota </caption>
+  <thead>
+    <tr>
+      <th scope="col"> Minnesota </th>
+      <th scope="col"> #1 </th>
+      <th scope="col"> #2 </th>
+      <th scope="col"> #3 </th>
+      <th scope="col"> #4 </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"> </th>
+      <td style="--size: 0.5; --color: rgba(0,0,0,0);"><span class="data"> 30$ </span></td>
+      <td style="--size: 0.25;"><span class="data"> 30$ </span></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td style="--size: 0.5; --color: rgba(0,0,0,0);"><span class="data"> 30$ </span></td>
+      <td style="--size: calc(30 / 150);"><span class="data"> 30$ </span></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td style="--size: 0.25; --color: rgba(0,0,0,0);"><span class="data"> 30$ </span></td>
+      <td style="--size: 0.25;"><span class="data"> 30$ </span></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td style="--size: 0.5; --color: rgba(0,0,0,0);"><span class="data"> 30$ </span></td>
+      <td style="--size: 0.1;"><span class="data"> 30$ </span></td>
+    </tr>
+  </tbody>
+</table>
+<table id="stacked-example-3" class="charts-css column hide-data show-heading show-labels show-primary-axis show-2-secondary-axes data-spacing-2 multiple stacked">
+  <caption> Montreal </caption>
+  <thead>
+    <tr>
+      <th scope="col"> Minnesota </th>
+      <th scope="col"> #1 </th>
+      <th scope="col"> #2 </th>
+      <th scope="col"> #3 </th>
+      <th scope="col"> #4 </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"> </th>
+      <td style="--size: 0.5; --color: rgba(0,0,0,0);"><span class="data"> 30$ </span></td>
+      <td style="--size: 0.25;"><span class="data"> 30$ </span></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td style="--size: 0.5; --color: rgba(0,0,0,0);"><span class="data"> 30$ </span></td>
+      <td style="--size: calc(30 / 150);"><span class="data"> 30$ </span></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td style="--size: 0.25; --color: rgba(0,0,0,0);"><span class="data"> 30$ </span></td>
+      <td style="--size: 0.25;"><span class="data"> 30$ </span></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td style="--size: 0.5; --color: rgba(0,0,0,0);"><span class="data"> 30$ </span></td>
+      <td style="--size: 0.1;"><span class="data"> 30$ </span></td>
+    </tr>
+  </tbody>
+</table>
+<table id="stacked-example-3" class="charts-css column hide-data show-heading show-labels show-primary-axis show-2-secondary-axes data-spacing-2 multiple stacked">
+  <caption> Calgary </caption>
+  <thead>
+    <tr>
+      <th scope="col"> Minnesota </th>
+      <th scope="col"> #1 </th>
+      <th scope="col"> #2 </th>
+      <th scope="col"> #3 </th>
+      <th scope="col"> #4 </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"> </th>
+      <td style="--size: 0.5; --color: rgba(0,0,0,0);"><span class="data"> 30$ </span></td>
+      <td style="--size: 0.25;"><span class="data"> 30$ </span></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td style="--size: 0.5; --color: rgba(0,0,0,0);"><span class="data"> 30$ </span></td>
+      <td style="--size: calc(30 / 150);"><span class="data"> 30$ </span></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td style="--size: 0.25; --color: rgba(0,0,0,0);"><span class="data"> 30$ </span></td>
+      <td style="--size: 0.25;"><span class="data"> 30$ </span></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td style="--size: 0.5; --color: rgba(0,0,0,0);"><span class="data"> 30$ </span></td>
+      <td style="--size: 0.1;"><span class="data"> 30$ </span></td>
+    </tr>
+  </tbody>
+</table>
+<table id="stacked-example-3" class="charts-css column hide-data show-heading show-labels show-primary-axis show-2-secondary-axes data-spacing-2 multiple stacked">
+  <caption> NC State </caption>
+  <thead>
+    <tr>
+      <th scope="col"> Minnesota </th>
+      <th scope="col"> #1 </th>
+      <th scope="col"> #2 </th>
+      <th scope="col"> #3 </th>
+      <th scope="col"> #4 </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"> </th>
+      <td style="--size: 0.5; --color: rgba(0,0,0,0);"><span class="data"> 30$ </span></td>
+      <td style="--size: 0.25;"><span class="data"> 30$ </span></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td style="--size: 0.5; --color: rgba(0,0,0,0);"><span class="data"> 30$ </span></td>
+      <td style="--size: calc(30 / 150);"><span class="data"> 30$ </span></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td style="--size: 0.25; --color: rgba(0,0,0,0);"><span class="data"> 30$ </span></td>
+      <td style="--size: 0.25;"><span class="data"> 30$ </span></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td style="--size: 0.5; --color: rgba(0,0,0,0);"><span class="data"> 30$ </span></td>
+      <td style="--size: 0.1;"><span class="data"> 30$ </span></td>
+    </tr>
+  </tbody>
+</table>
+<table id="stacked-example-3" class="charts-css column hide-data show-heading show-labels show-primary-axis show-2-secondary-axes data-spacing-2 multiple stacked">
+  <caption> App State </caption>
+  <thead>
+    <tr>
+      <th scope="col"> Minnesota </th>
+      <th scope="col"> #1 </th>
+      <th scope="col"> #2 </th>
+      <th scope="col"> #3 </th>
+      <th scope="col"> #4 </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"> </th>
+      <td style="--size: 0.5; --color: rgba(0,0,0,0);"><span class="data"> 30$ </span></td>
+      <td style="--size: 0.25;"><span class="data"> 30$ </span></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td style="--size: 0.5; --color: rgba(0,0,0,0);"><span class="data"> 30$ </span></td>
+      <td style="--size: calc(30 / 150);"><span class="data"> 30$ </span></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td style="--size: 0.25; --color: rgba(0,0,0,0);"><span class="data"> 30$ </span></td>
+      <td style="--size: 0.25;"><span class="data"> 30$ </span></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td style="--size: 0.5; --color: rgba(0,0,0,0);"><span class="data"> 30$ </span></td>
+      <td style="--size: 0.1;"><span class="data"> 30$ </span></td>
+    </tr>
+  </tbody>
+</table>
 
 
 ### Scoring Formula
