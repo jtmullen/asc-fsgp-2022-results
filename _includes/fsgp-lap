@@ -95,4 +95,5 @@ FSGP Lap Chart Generator
 	{% endfor %}
   </ul>
  </div>
+ <i>Each cross line indicates 50 laps</i>
 {% endif %}
