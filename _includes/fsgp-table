@@ -53,5 +53,5 @@ FSGP Heat Table Generator
 {% endfor %}
 </tbody>
 </table>
-<b>Last Updated at: <i>{{modified}}</i></b>
+<b>Last Updated: <i>{{modified}}</i></b>
 {% endif %}
