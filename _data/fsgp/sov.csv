@@ -1,10 +1,16 @@
 team,number,penalty,fastest,1,2,3,4,5,6
-labels,,,,Mid-1,End-1,Mid-2,End-2,Mid-3,End-3
-team name,11,0,5m 11s,0,25,42,33,30,0
-demo team,21,0,4m 10s,30,40,15,15,0,40
-another team,31,0,3m 9s,20,20,25,23,30,40
-team,41,0,3m 22s,40,50,30,26,33,15
-state team,51,4,5m 55s,0,0,0,38,32,35
-random team,61,5,1m 11s,0,0,15,20,20,20
-college team,71,0,n/a,0,0,0,0,0,0
-different team,81,7,1m 55s,0,0,0,0,6,40
+labels,,,,Mid Day 1,End Day 1,Mid Day 2,End Day 2,Mid Day 3,Final
+Kentucky,3,,,,,,,,
+MIT,4,,,,,,,,
+Florida,5,,,,,,,,
+Berkeley,6,,,,,,,,
+UT Austin,8,,,,,,,,
+Illinois State,17,,,,,,,,
+Illinois  ,22,,,,,,,,
+British Columbia,26,,,,,,,,
+Principia,32,,,,,,,,
+Georgia Tech,49,,,,,,,,
+Virginia,87,,,,,,,,
+ETS,101,,,,,,,,
+Kansas,785,,,,,,,,
+Western Michigan,786,,,,,,,,
