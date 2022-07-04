@@ -44,13 +44,12 @@ In the Multi-Occupant Class vehicles are scored on a number of factors including
 <div style="margin:auto; text-align:center;"> <b>Darkers Cells Indicate Teams Completing More Person Laps </b> </div>
 
 ## MOV Score
-
-
-### Scoring Formula
-At FSGP the MOV Score (S) is calculated as follows: **S = (D / E) x C x T**
 **Note that scores only become official at the end of the competition**
 
 {% include fsgp-score-table %}
+
+### Scoring Formula
+At FSGP the MOV Score (S) is calculated as follows: **S = (D / E) x C x T**
 
 The variables are as follows:
 - **D** - Total Personal Miles (Person Laps * 2.5 miles) minus penalty miles

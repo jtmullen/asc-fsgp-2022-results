@@ -5,23 +5,37 @@ FSGP Heat Table Generator
 <table class="tg" style="margin:auto; border: 1px solid;">
 <thead>
   <tr>
-  <th> </th>
-  <th colspan="6">Data Points</th>
-  <th colspan="3">Calculated Values</th>
+  <th style="border-right-width: 3px"> </th>
+  <th colspan="6" style="text-align:center;border-right-width: 3px">Data Points</th>
+  <th colspan="4" style="text-align:center;">Calculated Values</th>
   </tr>
   <tr>
-  <th> Team </th>
+  <th style="border-right-width: 3px;"> Team </th>
   <th> Miles </th>
-  <th> Person Miles </th>
+  <th> Person Miles [D]</th>
   <th> Penalty Miles </th>
   <th> Avg. Speed </th>
   <th> Battery Capacity </th>
-  <th> External Charging </th>
-  <th> Completion Factor </th>
-  <th> Speed Derating </th>
-  <th> Score </th>
+  <th style="border-right-width: 3px;"> External Charging </th>
+  <th> Completion Factor [C] </th>
+  <th> Speed Derating [T]</th>
+  <th> Total External Energy [E] </th>
+  <th> Score [S] </th>
   </tr>
 </thead>
 <tbody>
+{% for team in site.data.fsgp.mov-score %}
+	<tr>
+		<td style="border-right-width: 3px;">#{{team.number}} - {{team.name}}</td>
+		<td>{{team.person}}</td>
+		<td>{{team.penalty}}</td>
+		<td>{{team.capacity}}</td>
+		<td style="border-right-width: 3px;">{{team.external}}</td>
+		<td>{{team.completion}}</td>
+		<td>{{team.derate}}</td>
+		<td>{{team.total-ext}}</td>
+		<td><b>{{team.total-score}}</b></td>
+	</tr>
+{% endfor %}
 </tbody>
 </table>
