@@ -46,3 +46,10 @@
   border-right: solid 1px #8a8a8a; 
   border-left: solid 1px #8a8a8a;
 }
+
+.score-table th, tr {border: 1px solid #000000;}
+.score-table td {
+  border-right: solid 1px #080808; 
+  border-left: solid 1px #080808;
+  border-collapse: none !important;
+}
