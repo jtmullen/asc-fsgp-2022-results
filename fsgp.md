@@ -81,6 +81,7 @@ In the Multi-Occupant Class vehicles are scored on a number of factors including
   </tbody>
 </table>
 
+<br>
 
 ### Scoring Formula
 At FSGP the MOV Score (S) is calculated as follows: **S = (D / E) x C x T**
