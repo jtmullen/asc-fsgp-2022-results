@@ -35,7 +35,7 @@ FSGP Heat Table Generator
 		<td style="border-right-width: 3px;">{{team.external}}</td>
 		<td>{{team.completion}}</td>
 		<td>{{team.derate}}</td>
-		<td>{{team.total-ext}}</td>
+		<td style="border-right-width: 3px;">{{team.total-ext}}</td>
 		<td><b>{{team.total-score}}</b></td>
 	</tr>
 {% endfor %}
