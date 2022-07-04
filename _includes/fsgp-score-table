@@ -1,0 +1,27 @@
+{% comment %}
+FSGP Heat Table Generator
+{% endcomment %}
+<link rel="stylesheet" href="{{site.baseurl}}/assets/css/fsgp-style.css">
+<table class="tg" style="margin:auto; border: 1px solid;">
+<thead>
+  <tr>
+  <th> </th>
+  <th colspan="6">Data Points</th>
+  <th colspan="3">Calculated Values</th>
+  </tr>
+  <tr>
+  <th> Team </th>
+  <th> Miles </th>
+  <th> Person Miles </th>
+  <th> Penalty Miles </th>
+  <th> Avg. Speed </th>
+  <th> Battery Capacity </th>
+  <th> External Charging </th>
+  <th> Completion Factor </th>
+  <th> Speed Derating </th>
+  <th> Score </th>
+  </tr>
+</thead>
+<tbody>
+</tbody>
+</table>
