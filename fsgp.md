@@ -45,34 +45,34 @@ In the Multi-Occupant Class vehicles are scored on a number of factors including
 
 ## MOV Score
 
- <table class="charts-css bar show-heading show-data-on-hover show-primary-axis" style="height: 200px;">
+ <table class="charts-css radial show-heading show-labels show-data-on-hover show-primary-axis show-data-axes show-10-secondary-axes">
         <caption>Years Compared</caption>
         <thead>
           <tr>
-            <th>Year</th>
+            <th>#</th>
             <th>Progress</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th scope="row"> 2016 </th>
-            <td style="--size: 0.2;"> <span class="data">20</span> <span class="tooltip">data: 20<br>more info</span> </td>
+            <th scope="row"> 1 </th>
+            <td style="--start: 0.1; --end: 0.4;"> <span class="data">40</span> <span class="tooltip">data: 40<br>more info</span> </td>
           </tr>
           <tr>
-            <th scope="row"> 2017 </th>
-            <td style="--size: 0.4;"> <span class="data">40</span> <span class="tooltip">data: 40<br>more info</span> </td>
+            <th scope="row"> 2 </th>
+            <td style="--start: 0.4; --end: 0.8;"> <span class="data">80</span> <span class="tooltip">data: 80<br>more info</span> </td>
           </tr>
           <tr>
-            <th scope="row"> 2018 </th>
-            <td style="--size: 0.6;"> <span class="data">60</span> <span class="tooltip">data: 60<br>more info</span> </td>
+            <th scope="row"> 3 </th>
+            <td style="--start: 0.8; --end: 0.6;"> <span class="data">60</span> <span class="tooltip">data: 60<br>more info</span> </td>
           </tr>
           <tr>
-            <th scope="row"> 2019 </th>
-            <td style="--size: 0.8;"> <span class="data">80</span> <span class="tooltip">data: 80<br>more info</span> </td>
+            <th scope="row"> 4 </th>
+            <td style="--start: 0.6; --end: 1.0;"> <span class="data">100</span> <span class="tooltip">data: 100<br>more info</span> </td>
           </tr>
           <tr>
-            <th scope="row"> 2020 </th>
-            <td style="--size: 1.0;"> <span class="data">100</span> <span class="tooltip">data: 100<br>more info</span> </td>
+            <th scope="row"> 6 </th>
+            <td style="--start: 1.0; --end: 0.3;"> <span class="data">30</span> <span class="tooltip">data: 30<br>more info</span> </td>
           </tr>
         </tbody>
       </table>
