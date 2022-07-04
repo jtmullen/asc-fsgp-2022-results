@@ -4,6 +4,7 @@ title: Formula Sun Grand Prix
 description: "3 Days of Racing on the Track to qualify for ASC"
 image: assets/images/illinois_track.jpg
 nav-menu: true
+header: no
 ---
 
 FSGP 2022 is 3 days of racing on the 2.5 mile road course at [Heartland Motorsports Park](http://heartlandmotorsports.us/) in Topeka, Kansas. Solar Cars drive for 8 hours per day and have additonal solar charging time available in the morning and evening. For teams continuing onto ASC, this event also serves as the qualifier. TODO FSGP is open to the public and free to attend! [Full Event Info →](https://www.americansolarchallenge.org/the-competition/2022-american-solar-challenge/)
