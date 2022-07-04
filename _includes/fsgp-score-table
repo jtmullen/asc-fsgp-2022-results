@@ -26,9 +26,11 @@ FSGP Heat Table Generator
 <tbody>
 {% for team in site.data.fsgp.mov-score %}
 	<tr>
-		<td style="border-right-width: 3px;">#{{team.number}} - {{team.name}}</td>
+		<td style="border-right-width: 3px;">#{{team.number}} - {{team.team}}</td>
+		<td>{{team.miles}}</td>
 		<td>{{team.person}}</td>
 		<td>{{team.penalty}}</td>
+		<td>{{team.speed}}</td>
 		<td>{{team.capacity}}</td>
 		<td style="border-right-width: 3px;">{{team.external}}</td>
 		<td>{{team.completion}}</td>
