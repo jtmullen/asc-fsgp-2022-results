@@ -1,5 +1,6 @@
 team,number,penalty,fastest,1,2
-labels,,,,Mid Day-1,End Day-1
+labels,graph,,,1: 10-2,1: 2-4
+labels,table,,,Day 0.5,Day 1
 Iowa State,9,,3:32,6,6
 Minnesota,35,,4:04,47,13
 Poly Montreal,55,,4:18,48,14

@@ -1,5 +1,6 @@
 team,number,penalty,fastest,1,2
-labels,,,,Mid Day-1,End Day-1
+labels,graph,,,1: 10-2,1: 2-4
+labels,table,,,Day 0.5,Day 1
 Kentucky,3,,4:02,37,10
 MIT,4,,3:15,51,15
 Florida,5,,--,0,0
