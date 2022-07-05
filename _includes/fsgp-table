@@ -34,7 +34,7 @@ FSGP Heat Table Generator
 				{% assign totalTime = totalTime | plus:4 %}
 			{% endif %}
 			{% assign totalLaps = totalLaps | plus:item[1] %}
-			<td style="background-color:rgba(183, 144, 1, calc({{currentLaps}}/40))">{{totalLaps}}</td> 
+			<td style="background-color:rgba(183, 144, 1, calc({{currentLaps}}/45))">{{totalLaps}}</td> 
 		{% endfor %}
 		{% if totalTime == 0 %}
 			{% assign speed = 0 %}
@@ -53,4 +53,5 @@ FSGP Heat Table Generator
 {% endfor %}
 </tbody>
 </table>
+<span style="text-align:center;"><i>Last Updated: {{modified}}</i>&nbsp;&nbsp;&nbsp;&nbsp;<b>Darkers Cells Indicate Teams Completing More Laps</b></span>
 {% endif %}
