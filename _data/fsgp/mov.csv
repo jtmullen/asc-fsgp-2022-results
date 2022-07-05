@@ -1,8 +1,8 @@
-team,number,penalty,fastest,1
-labels,,,,Mid Day-1
-Iowa State,9,,3:45,6
-Minnesota,35,,4:04,47
-Poly Montreal,55,,4:18,48
-Calgary,65,,4:18,36
-App State,828,,3:46,18
-modified,5 July 2022 – 2:00pm US Central,,,
+team,number,penalty,fastest,1,2
+labels,,,,Mid Day-1,End Day-1
+Iowa State,9,,3:32,6,6
+Minnesota,35,,4:04,47,13
+Poly Montreal,55,,4:18,48,14
+Calgary,65,,4:18,36,13
+App State,828,,3:46,18,3
+modified,5 July 2022 – 3:00pm US Central,,,,
