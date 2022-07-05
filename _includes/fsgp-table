@@ -43,7 +43,7 @@ FSGP Heat Table Generator
 		{% endif %}
 		<td>{{team.penalty}}</td>
 		{% assign totalLaps = totalLaps | minus:team.penalty %}
-		<td>{{totalLaps}}</td>
+		<td><b>{{totalLaps}}</b></td>
 		<td></td>
 		<td>{{team.fastest}}</td>
 		</tr>
