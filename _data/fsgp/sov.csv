@@ -1,13 +1,14 @@
 team,number,penalty,fastest,1,2
 labels,graph,,,Day 1: 10-2,Day 1: 2-4
 labels,table,,,Day 0.5,Day 1
-Kentucky,3,,3:39,37,26
-MIT,4,,3:15,51,24
+Kentucky,3,,3:39,37,38
+MIT,4,,3:15,51,29
 Florida,5,,--,0,0
-Berkeley,6,,4:18,43,24
+Berkeley,6,,4:17,43,36
 Illinois State,17,,4:50,4,0
-Illinois  ,22,,4:10,37,26
-Principia,32,,3:31,50,27
-Georgia Tech,49,,4:20,43,25
-Western Michigan,786,,4:54,27,13
-modified,5 July 2022 – 4:00pm US Central,,,,
+Illinois  ,22,,4:10,37,40
+Principia,32,,3:31,50,41
+Georgia Tech,49,,4:20,43,34
+ETS,101,,--,0,0
+Western Michigan,786,,4:54,27,19
+modified,5 July 2022 – 5:00pm US Central,,,,
