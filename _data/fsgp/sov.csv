@@ -1,11 +1,11 @@
-team,number,penalty,fastest,1,2,3,4,5,6
-labels,,,,Mid Day-1,End Day-1,Mid Day-2,End Day-2,Mid Day-3,Final
-Kentucky,3,,,10,,,,,
-MIT,4,,,25,,,,,
-Berkeley,6,,,21,,,,,
-Illinois State,17,,,1,,,,,
-Illinois  ,22,,,18,,,,,
-Principia,32,,,25,,,,,
-Georgia Tech,49,,,23,,,,,
-Western Michigan,786,,,18,,,,,
-modified,5 July 2022 – 12:00pm US Central,,,,,,,,
+team,number,penalty,fastest,1
+labels,,,,Mid Day-1
+Kentucky,3,,,10
+MIT,4,,,25
+Berkeley,6,,,21
+Illinois State,17,,,1
+Illinois  ,22,,,18
+Principia,32,,,25
+Georgia Tech,49,,,23
+Western Michigan,786,,,18
+modified,5 July 2022 – 12:00pm US Central,,,
