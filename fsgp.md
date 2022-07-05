@@ -27,7 +27,6 @@ In the Single Occupant Class vehicles are scored solely on laps completed. The t
 <br>
 <div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i></div>
 {% include fsgp-table class="sov" %}
-<div style="margin:auto; text-align:center;"> <b>Darkers Cells Indicate Teams Completing More Laps </b> </div>
 
 -----
 ## Multi Occupant Class
@@ -42,7 +41,6 @@ In the Multi-Occupant Class vehicles are scored on a number of factors including
 <br>
 <div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i></div>
 {% include fsgp-table class="mov" %}
-<div style="margin:auto; text-align:center;"> <b>Darkers Cells Indicate Teams Completing More Person Laps </b> </div>
 
 ## MOV Score
 <i>Note that scores only become official at the end of the competition</i>

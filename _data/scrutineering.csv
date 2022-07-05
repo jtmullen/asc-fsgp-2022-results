@@ -7,7 +7,7 @@ Berkeley,6,8,G,G,G,G,G,G,G,G,G,G,,N
 UT Austin,8,,G,G,Y,B,R,,,,G,G,N,N
 Iowa State,9,7,G,G,G,G,G,G,G,G,G,G,G,G
 Michigan State,13,,G,G,Y,G,Y,R,R,,G,G,N,
-Illinois State,17,,G,G,G,Y,Y,G,Y,,G,G,N,N
+Illinois State,17,13,G,G,G,G,G,G,B,G,G,G,N,N
 Illinois  ,22,1,G,G,G,G,G,G,G,G,G,G,G,N
 British Columbia,26,,G,G,Y,G,Y,G,Y,,G,G,N,N
 Principia,32,12,G,G,G,G,G,G,G,G,G,G,G,N
@@ -21,4 +21,4 @@ ETS,101,,G,G,Y,G,B,G,Y,,G,G,Y,N
 Kansas,785,,G,,Y,Y,Y,,Y,,,G,N,N
 Western Michigan,786,9,G,G,G,B,G,G,B,G,G,G,N,N
 App State,828,10,G,B,G,G,G,G,G,G,G,G,Y,G
-modified,5 July 2022 – 7:15am US Central,,,,,,,,,,,,,
+modified,5 July 2022 – 12:25pm US Central,,,,,,,,,,,,,
