@@ -9,7 +9,7 @@ Iowa State,9,7,G,G,G,G,G,G,G,G,G,G,G,G
 Michigan State,13,,G,G,Y,G,Y,R,R,,G,G,N,
 Illinois State,17,13,G,G,G,G,G,G,B,G,G,G,N,N
 Illinois  ,22,1,G,G,G,G,G,G,G,G,G,G,G,N
-British Columbia,26,,G,G,Y,G,Y,G,Y,G,G,G,N,N
+British Columbia,26,,G,G,Y,G,G,G,Y,G,G,G,N,N
 Principia,32,12,G,G,G,G,G,G,G,G,G,G,G,N
 Minnesota,35,2,G,G,G,G,G,G,G,G,G,G,G,G
 Georgia Tech,49,6,G,G,G,G,G,G,G,G,G,G,N,N
@@ -17,8 +17,8 @@ Poly Montreal,55,4,G,G,G,G,G,G,G,G,G,G,Y,G
 Calgary,65,11,G,G,G,G,G,G,G,G,G,G,N,G
 Virginia,87,,G,G,Y,G,G,G,R,,G,G,N,N
 NC State,99,,G,G,G,G,G,G,Y,G,G,G,N,
-ETS,101,,G,G,Y,G,B,G,Y,,G,G,Y,N
+ETS,101,,G,G,Y,G,B,G,Y,G,G,G,Y,N
 Kansas,785,,G,,Y,Y,Y,,Y,,,G,N,N
 Western Michigan,786,9,G,G,G,B,G,G,B,G,G,G,N,N
 App State,828,10,G,B,G,G,G,G,G,G,G,G,Y,G
-modified,5 July 2022 – 2:35pm US Central,,,,,,,,,,,,,
+modified,5 July 2022 – 3:30pm US Central,,,,,,,,,,,,,
