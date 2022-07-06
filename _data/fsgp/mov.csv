@@ -1,10 +1,10 @@
 team,number,penalty,fastest,1,2
 labels,graph,,,Day 1: 10-2,Day 1: 2-4
 labels,table,,,Day 0.5,Day 1
-Iowa State,9,,3:32,6,32
-Minnesota,35,,4:04,47,47
-Poly Montreal,55,,4:18,48,41
-Calgary,65,,4:02,36,43
-NC State,99,,--,0,7
-App State,828,,3:46,18,11
-modified,5 July 2022 – 5:45pm US Central,,,,
+Iowa State,9,1,3:32,6,32
+Minnesota,35,0,4:04,47,51
+Poly Montreal,55,0,4:18,48,41
+Calgary,65,3,4:01,36,45
+NC State,99,0,3:12,0,11
+App State,828,0,3:46,18,11
+modified,5 July 2022 – 11:00pm US Central,,,,
