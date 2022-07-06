@@ -32,8 +32,8 @@ In the Single Occupant Class vehicles are scored solely on laps completed. The t
 ## Multi Occupant Class
 
 In the Multi-Occupant Class vehicles are scored on a number of factors including:
-- Total Person Laps (each additional passenger in the vehicle for a compeleted lap earns an additonal person lap)
 - Target Speed (teams must average at least 30mph, if they do not their score is reduced)
+- Total Person Laps (each additional passenger in the vehicle for a compeleted lap earns an additonal person lap)
 - External Energy Usage (MOV cars can charge from non-solar sources, the amount of charging factors into the score)
 
 
