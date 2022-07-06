@@ -10,17 +10,17 @@ FSGP MOV Table Generator
   <th colspan="4" style="text-align:center;">Calculated Values</th>
   </tr>
   <tr>
-  <th style="border-right-width: 3px;"> Team </th>
-  <th> Miles </th>
-  <th> Person Miles [D]</th>
-  <th> Penalty Miles </th>
-  <th> Avg. Speed (mph)</th>
-  <th> Battery Capacity (kWh)</th>
-  <th style="border-right-width: 3px;"> External Charging (kWh) </th>
-  <th> Completion Factor [C] </th>
-  <th> Speed Derating [T]</th>
-  <th style="border-right-width: 3px;"> Total External Energy [E] (kWh) </th>
-  <th style="border-right-width: 3px;"> Score [S] </th>
+  <th style="border-right-width: 3px;border-bottom-width: 3px;"> Team </th>
+  <th style="border-bottom-width: 3px;"> Miles </th>
+  <th style="border-bottom-width: 3px;"> Person Miles [D]</th>
+  <th style="border-bottom-width: 3px;"> Penalty Miles </th>
+  <th style="border-bottom-width: 3px;"> Avg. Speed (mph)</th>
+  <th style="border-bottom-width: 3px;"> Battery Capacity (kWh)</th>
+  <th style="border-right-width: 3px;border-bottom-width: 3px;"> External Charging (kWh) </th>
+  <th style="border-bottom-width: 3px;"> Completion Factor [C] </th>
+  <th style="border-bottom-width: 3px;"> Speed Derating [T]</th>
+  <th style="border-right-width: 3px;border-bottom-width: 3px;"> Total External Energy [E] (kWh) </th>
+  <th style="border-right-width: 3px;border-bottom-width: 3px;"> Score [S] </th>
   </tr>
 </thead>
 <tbody>
