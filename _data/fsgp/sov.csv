@@ -1,16 +1,16 @@
 team,number,penalty,fastest,1,2,3
 labels,graph,,,Day 1: 10a-2p,Day 1: 2-6p,Day 2: 9a–1pm
 labels,table,,,Day 0.5,Day 1,Day 1.5
-Kentucky,3,1,3:39,37,51,12
-MIT,4,1,3:15,51,42,14
-Florida,5,0,--,0,0,0
-Berkeley,6,1,4:07,43,49,10
+Kentucky,3,1,3:39,37,51,23
+MIT,4,1,3:15,51,42,27
+Florida,5,0,5:00,0,0,7
+Berkeley,6,1,4:07,43,49,20
 Illinois State,17,0,4:50,4,0,0
-Illinois  ,22,2,3:56,37,52,7
-British Columbia,26,0,--,0,0,8
-Principia,32,1,3:31,50,55,11
-Georgia Tech,49,1,4:20,43,41,7
+Illinois  ,22,2,3:56,37,52,18
+British Columbia,26,0,4:43,0,0,18
+Principia,32,1,3:31,50,55,24
+Georgia Tech,49,1,4:20,43,41,18
 Virginia,87,0,--,0,0,0
-ETS,101,0,--,0,0,8
+ETS,101,0,4:02,0,0,22
 Western Michigan,786,2,4:54,27,20,0
-modified,6 July 2022 – 10:00am US Central,,,,,
+modified,6 July 2022 – 11:00am US Central,,,,,
