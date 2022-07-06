@@ -1,7 +1,7 @@
 {% comment %}
 FSGP Lap Chart Generator
 {% endcomment %}{% assign class = include.class %}
-{% assign colors = "#FFFFFF","#FFFFFF","#FFFFFF""#4363d8,#e6194B,#ffe119,#000075,#fabed4,#f58231,#3cb44b,#dcbeff,#469990,#000000,#a9a9a9,#ffd8b1" | split: "," %}
+{% assign colors = "#ffffff","#ffffff","#ffffff","#4363d8,#e6194B,#ffe119,#000075,#fabed4,#f58231,#3cb44b,#dcbeff,#469990,#000000,#a9a9a9,#ffd8b1" | split: "," %}
 {%if class != "sov" and class != "mov" %} <i>Error generating Chart</i>
 {% else %}
 {% assign most_laps = 0 %}
@@ -80,7 +80,7 @@ FSGP Lap Chart Generator
 			{% endfor %}
 			{% assign lowEnd = lowEnd | append:"" %}
 			{% assign highEnd = highEnd | append:"" %}
-			<td style="--start: calc( {{lowEnd}} / {{full}}); --size: calc({{highEnd}} / {{full}});--color:{{colors[forloop.index0]}};"><span class="data"> {{highEnd}} </span></td>
+			<td style="--start: calc( {{lowEnd}} / {{full}}); --size: calc({{highEnd}} / {{full}}); --color:{{colors[forloop.index0]}};"><span class="data"> {{highEnd}} </span></td>
 		{% endif %}
 	  {% endif %}
 	  {% endfor %}
