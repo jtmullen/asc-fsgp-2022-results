@@ -80,7 +80,7 @@ FSGP Lap Chart Generator
 			{% endfor %}
 			{% assign lowEnd = lowEnd | append:"" %}
 			{% assign highEnd = highEnd | append:"" %}
-			<td style="--start: calc( {{lowEnd}} / {{full}}); --size: calc({{highEnd}} / {{full}});--color:{{colors[forloop.index0]}}"><span class="data"> {{highEnd}} </span></td>
+			<td style="--start: calc( {{lowEnd}} / {{full}}); --size: calc({{highEnd}} / {{full}});"><span class="data"> {{highEnd}} </span></td>
 		{% endif %}
 	  {% endif %}
 	  {% endfor %}
@@ -91,7 +91,7 @@ FSGP Lap Chart Generator
   <ul class="charts-css legend legend-inline legend-square">
 	{% for team in site.data.fsgp.[class] %}
 		{% if team.team != "labels" and team.team != "modified" %}
-		<li style="--color:{{colors[forloop.index0]}}">#{{team.number}} - {{team.team}}</li>
+		<li>#{{team.number}} - {{team.team}}</li>
 		{% endif %}
 	{% endfor %}
   </ul>
