@@ -14,13 +14,13 @@ FSGP MOV Table Generator
   <th> Miles </th>
   <th> Person Miles [D]</th>
   <th> Penalty Miles </th>
-  <th> Avg. Speed </th>
-  <th> Battery Capacity </th>
-  <th style="border-right-width: 3px;"> External Charging </th>
+  <th> Avg. Speed (mph)</th>
+  <th> Battery Capacity (kWh)</th>
+  <th style="border-right-width: 3px;"> External Charging (kWh) </th>
   <th> Completion Factor [C] </th>
   <th> Speed Derating [T]</th>
-  <th style="border-right-width: 3px;"> Total External Energy [E] </th>
-  <th style="border-right-width: 3px; border-top-width: 3px;"> Score [S] </th>
+  <th style="border-right-width: 3px;"> Total External Energy [E] (kWh) </th>
+  <th style="border-right-width: 3px;"> Score [S] </th>
   </tr>
 </thead>
 <tbody>

@@ -25,7 +25,7 @@ FSGP Heat Table Generator
 {% assign modified = "" %}
 {% for team in site.data.fsgp.[class] %}
 	{% if team.team != "labels" and team.team != "modified" %}
-		<tr style="background-color:#fafafa;"><td style="font-weight:bold;">#{{team.number}} - {{team.team}} </td>
+		<tr style="background-color:#fafafa;"><td style="font-weight:bold;white-space: nowrap;">#{{team.number}} - {{team.team}} </td>
 		{% assign totalLaps = 0 %}
 		{% assign totalTime = 0 %}
 		{% for item in team offset:4 %}
