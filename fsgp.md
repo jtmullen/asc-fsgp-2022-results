@@ -52,9 +52,9 @@ In the Multi-Occupant Class vehicles are scored on a number of factors including
 At FSGP the MOV Score (S) is calculated as follows: **S = (D / E) x C x T**
 
 The variables are as follows:
+- **T** - Target Speed derating. For teams averaging below 30 mph their score is exponentially derated based on their average speed 
 - **D** - Total Personal Miles (Person Laps * 2.5 miles) minus penalty miles
 - **E** - External Energy Used in kWh
 - **C** - Completion Factor as a percentage of the highest miles completed by any team
-- **T** - Target Speed derating. For teams averaging below 30 mph their score is exponentially derated based on their average speed 
 
 <i>Note for teams: See the regulations for full details, information here is simplified</i>
