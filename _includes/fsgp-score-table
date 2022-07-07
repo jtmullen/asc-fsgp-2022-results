@@ -6,7 +6,7 @@ FSGP MOV Table Generator
 <thead>
   <tr>
   <th style="border-right-width: 3px"> </th>
-  <th colspan="4" style="text-align:center;">Calculated Values</th>
+  <th colspan="4" style="text-align:center;border-right-width: 3px">Calculated Values</th>
   <th colspan="6" style="text-align:center;border-right-width: 3px">Data Points</th>
   </tr>
   <tr>
