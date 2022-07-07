@@ -65,6 +65,9 @@
   background-color: #a9a9a9;
 }
 #legend-example-2 .legend > li:nth-of-type(12)::before {
+  background-color: #911eb4;
+}
+#legend-example-2 .legend > li:nth-of-type(13)::before {
   background-color: #ffe119;
 }
 
