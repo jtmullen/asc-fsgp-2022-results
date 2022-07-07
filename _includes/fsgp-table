@@ -8,7 +8,7 @@ FSGP Heat Table Generator
 <thead>
   <tr>
   <th> Team </th>
-  <th> Total </th>
+  <th style="border-right-width: 3px;border-left-width:3px;"> Total </th>
   {% for team in site.data.fsgp.[class] %}
 	{% if team.team == "labels" and team.number == "table" %}
 		{% for item in team offset:6 %}
@@ -28,7 +28,7 @@ FSGP Heat Table Generator
 		<tr style="background-color:#fafafa;"><td style="font-weight:bold;white-space: nowrap;">#{{team.number}} - {{team.team}} {{team.qualified}} </td>
 		{% assign totalLaps = 0 %}
 		{% assign totalTime = 0 %}
-		<td><b>{{team.total}}</b></td>
+		<td style="border-right-width: 3px;border-left-width:3px;"><b>{{team.total}}</b></td>
 		{% for item in team offset:6 %}
 			{% assign currentLaps = item[1] | plus:0 %}
 			{% if currentLaps > 0 %}
