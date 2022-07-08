@@ -45,6 +45,8 @@ Optional Loops:
 - Grand Island Loop: *21 miles*
 
 {% include asc-stage-chart stage="stage1" class="sov" %}
+<br>
+<br>
 
 {% include asc-stage-table stage="stage1" class="sov" %}
 
