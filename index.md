@@ -1,7 +1,7 @@
 ---
 layout: home
 title: #ASC2022
-landing-title: 'Happening Now: Formula Sun Grand Prix'
+landing-title: 'Happening Now: Display Day'
 currently: ''
 description: null
 image: null
