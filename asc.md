@@ -58,7 +58,7 @@ Optional Loops:
 <br>&nbsp;<br>
 
 
-### MOV Distance Completed
+<h3>MOV Distance Completed</h3>
 
 <br>&nbsp;
 {% include asc-stage-chart stage="stage1" class="mov" %}
