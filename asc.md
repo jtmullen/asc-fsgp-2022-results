@@ -4,6 +4,7 @@ layout: page-fullwidth
 description: '1400+ miles on the road following the Oregon National Historic Trail!'
 image: assets/images/minnesota_road.jpg
 nav-menu: true
+header: no
 ---
 
 ASC 2022 is an 8 day 1400+ mile competition split into 4 stages. Teams will drive their cars along the Oregon Trail National Historic Trail from Independence, MO to Twin Falls, ID stopping at various checkpoints and stage stops along the way. For More details on the event visit the [Event Page →](https://www.americansolarchallenge.org/the-competition/2022-american-solar-challenge/)
@@ -52,6 +53,7 @@ Optional Loops:
 <br>&nbsp;
 
 {% include asc-stage-table stage="stage1" class="sov" %}
+<br>&nbsp;
 
 ### MOV Distance Completed
 {% include asc-stage-chart stage="stage1" class="mov" %}
