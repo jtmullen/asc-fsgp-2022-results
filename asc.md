@@ -11,6 +11,8 @@ ASC 2022 is an 8 day 1400+ mile competition split into 4 stages. Teams will driv
 
 
 <a href="http://fleet.iosix.com/solar/" class="button special" style="margin:5px">Live Tracking!</a>
+<a href="https://maphub.net/JTMullen/asc-2022-route" class="button special" style="margin:5px">Route Map</a>
+
 
 ## Scoring 
 
