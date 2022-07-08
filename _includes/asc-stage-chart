@@ -78,15 +78,15 @@ ASC Stage Chart Generator
 			<th scope="row"> {{team.team}} </th>
 			{% for item in team | offset:5 %}
 			{% if type[forloop.index0] == "base" %}
-				{% assign tooltip = {{name[forloop.index0]}} | append:": " | append:{{item[1]}} | append: " of " | append:{{miles[forloop.index0]}} | append:" miles" %}
-				<td style="--size: calc({{item[1]}} / {{full}});--color: blue;border:1px solid white"><span class="data"> {{item[1]}} mi. </span><span class="tooltip"> {{tooltip}} </span></td>
+				{% assign tooltip = {{name[forloop.index0]}} | append:" <br> " | append:{{item[1]}} | append: " of " | append:{{miles[forloop.index0]}} | append:" miles" %}
+				<td style="--size: calc({{item[1]}} / {{full}});--color: rgba(29,112,235,1);border:1px solid white"><span class="data"> {{item[1]}} mi. </span><span class="tooltip"> {{tooltip}} </span></td>
 			{% else %}
 				{% assign loopCount = item[1] | plus:0 %}
 				{% if loopCount > 0 %} 
-					{% assign tooltip = {{name[forloop.index0]}} | append:": " | append:{{miles[forloop.index0]}} | append:" miles" %}
+					{% assign tooltip = {{name[forloop.index0]}} | append:" <br> " | append:{{miles[forloop.index0]}} | append:" miles" %}
 					{% assign loopMiles = miles[forloop.index0] %}
 					{% for i in (1..loopCount) %}
-						<td style="--size: calc({{loopMiles}} / {{full}});--color: green;border:1px solid white"><span class="data"> {{loopMiles}} mi. </span><span class="tooltip"> {{tooltip}} </span></td>
+						<td style="--size: calc({{loopMiles}} / {{full}});--color: rgba(50,136,99,1);border:1px solid white"><span class="data"> {{loopMiles}} mi. </span><span class="tooltip"> {{tooltip}} </span></td>
 					{% endfor %}
 				{% endif %}
 			{% endif %}
