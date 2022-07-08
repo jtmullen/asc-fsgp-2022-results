@@ -48,6 +48,7 @@ Optional Loops:
 
 ### SOV Distance Completed
 
+<br>&nbsp;
 {% include asc-stage-chart stage="stage1" class="sov" %}
 <br>&nbsp;
 <br>&nbsp;
@@ -58,6 +59,7 @@ Optional Loops:
 
 ### MOV Distance Completed
 
+<br>&nbsp;
 {% include asc-stage-chart stage="stage1" class="mov" %}
 <br>&nbsp;
 <br>&nbsp;
