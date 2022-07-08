@@ -36,6 +36,7 @@ Multi-Occupant vehicles are scored on a variety of factors including person-mile
 ## Stage 1
 
 **July 9th & 10th: Independence, MO to Grand Island, NE via Topeka, KS**
+
 Base Route Segments:
 - Independence to Topeka: *98 miles*
 - Topeka to Grand Island: *265 miles*
