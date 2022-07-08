@@ -32,7 +32,7 @@ In the Single Occupant Class vehicles are scored solely on laps completed. The t
 
 {% include fsgp-lap class="sov" %}
 <br>
-<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i></div>
+<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i><br>Laps are shown cumulatively over the entire race.</div>
 {% include fsgp-table class="sov" %}
 
 -----
@@ -72,5 +72,5 @@ The variables are as follows:
 
 {% include fsgp-lap class="mov" %}
 <br>
-<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i></div>
+<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i><br>Laps are shown cumulatively over the entire race.</div>git status
 {% include fsgp-table class="mov" %}
