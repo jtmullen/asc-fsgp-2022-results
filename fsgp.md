@@ -72,5 +72,5 @@ The variables are as follows:
 
 {% include fsgp-lap class="mov" %}
 <br>
-<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i><br>Laps are shown cumulatively over the entire race.</div>git status
+<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i><br>Laps are shown cumulatively over the entire race.</div>
 {% include fsgp-table class="mov" %}
