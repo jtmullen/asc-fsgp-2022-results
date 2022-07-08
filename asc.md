@@ -10,6 +10,8 @@ header: no
 ASC 2022 is an 8 day 1400+ mile competition split into 4 stages. Teams will drive their cars along the Oregon Trail National Historic Trail from Independence, MO to Twin Falls, ID stopping at various checkpoints and stage stops along the way. For More details on the event visit the [Event Page →](https://www.americansolarchallenge.org/the-competition/2022-american-solar-challenge/)
 
 
+<a href="http://fleet.iosix.com/solar/" class="button special" style="margin:5px">Live Tracking!</a>
+
 ## Scoring 
 
 The 2022 Event is once again a distance-based competition. The primary goal is to compelete the 1470 mile base route, however teams will have numerous opportuntities to complete additional optional loop segments to gain addition miles (or person miles for Multi-Occupant Vehicles) which will help increase their ranking. 
@@ -46,7 +48,7 @@ Optional Loops:
 - Topeka Loop: *43 miles*
 - Grand Island Loop: *21 miles*
 
-### SOV Distance Completed
+<h4>SOV Distance Completed</h4>
 
 <br>&nbsp;
 {% include asc-stage-chart stage="stage1" class="sov" %}
@@ -58,7 +60,7 @@ Optional Loops:
 <br>&nbsp;<br>
 
 
-<h3>MOV Distance Completed</h3>
+<h4>MOV Distance Completed</h4>
 
 <br>&nbsp;
 {% include asc-stage-chart stage="stage1" class="mov" %}
@@ -66,3 +68,7 @@ Optional Loops:
 <br>&nbsp;
 
 {% include asc-stage-table stage="stage1" class="mov" %}
+
+<h4>MOV Scores</h4>
+
+{% include asc-score-table stage="stage1" %}
