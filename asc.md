@@ -54,6 +54,7 @@ Optional Loops:
 
 {% include asc-stage-table stage="stage1" class="sov" %}
 <br>&nbsp;
+<br>&nbsp;
 
 ### MOV Distance Completed
 
