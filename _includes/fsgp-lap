@@ -18,7 +18,10 @@ FSGP Lap Chart Generator
 {% endfor %}
 {% assign full = 0 %}
 {% assign axis = 1 %}
-{% if most_laps > 250 %}
+{% if most_laps > 300 %}
+	{% assign full = 350 %}
+	{% assign axis = 7 %}
+{% elsif most_laps > 250 %}
 	{% assign full = 300 %}
 	{% assign axis = 6 %}
 {% elsif most_laps > 200 %}

@@ -45,11 +45,17 @@ Optional Loops:
 - Topeka Loop: *43 miles*
 - Grand Island Loop: *21 miles*
 
+### SOV Distance Completed
+
 {% include asc-stage-chart stage="stage1" class="sov" %}
 <br>&nbsp;
 <br>&nbsp;
-<br>&nbsp;
-<br>
 
 {% include asc-stage-table stage="stage1" class="sov" %}
 
+### MOV Distance Completed
+{% include asc-stage-chart stage="stage1" class="mov" %}
+<br>&nbsp;
+<br>&nbsp;
+
+{% include asc-stage-table stage="stage1" class="mov" %}
