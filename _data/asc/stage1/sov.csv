@@ -2,9 +2,9 @@ team,number,penalty,trailer,time,1,2,3,4
 data,name,,,,Independence to Topeka,Topeka Loop,Topeka to Grand Island,Grand Island Loop
 data,type,,,,base,loop,base,loop
 data,miles,,,,98,43,265,21
-team name,10,0,No,13:24:10,98,1,265,3
-another team,30,0,No,13:50:52,98,1,265,3
-different team,80,0,No,13:45:15,98,0,265,2
-state team,50,4,No,15:30:44,98,0,265,1
-random team,60,0,Yes,15:30:20,98,0,200,0
-team,40,17,Yes,6:50:32,98,0,50,0
+Kentucky,3,0,No,--,,,,
+MIT,4,0,No,--,,,,
+Berkeley,6,0,No,--,,,,
+Illinois,22,0,No,--,,,,
+Principia,32,0,No,--,,,,
+ETS,101,0,No,--,,,,
