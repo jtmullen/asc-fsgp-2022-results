@@ -18,7 +18,7 @@ FSGP 2022 is 3 days of racing on the 2.5 mile road course at [Heartland Motorspo
 </ul>
 
 -----
-## Single Occupant Class
+## Single Occupant Vehicle Class
 
 In the Single Occupant Class vehicles are scored solely on laps completed. The team with the most laps (minus penalty laps) at the end of the three days wins!
 
@@ -36,7 +36,7 @@ In the Single Occupant Class vehicles are scored solely on laps completed. The t
 {% include fsgp-table class="sov" %}
 
 -----
-## Multi Occupant Class
+## Multi-Occupant Vehicle Class
 
 In the Multi-Occupant Class vehicles are scored on a number of factors including:
 - Target Speed (teams must average at least 30mph, if they do not their score is reduced)
