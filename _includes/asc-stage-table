@@ -4,6 +4,7 @@ ASC Stage Chart Generator
 {% assign name = "" | split: ',' %}
 {% assign type = "" | split: ',' %}
 {% assign miles = "" | split: ',' %}
+{% assign modified = "" %}
 {% for team in site.data.asc.[stage].[class] %}
 	{% if team.team == "data" %}
 		{% if team.number == "name" %}
@@ -18,6 +19,8 @@ ASC Stage Chart Generator
 			{% for item in team | offset:5 %}
 				{% assign miles = miles | push:item[1] %}
 			{% endfor %}
+		{$ elsif team.number == "modified" %}
+			{% assign modified = team.penalty %}
 		{% endif %}
 	{% endif %}
 {% endfor %}
@@ -67,3 +70,4 @@ ASC Stage Chart Generator
 {% endfor %}
 </tbody>
 </table>
+<b>Last Updated at: <i>{{modified}}</i></b>
