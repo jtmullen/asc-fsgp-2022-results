@@ -29,11 +29,11 @@ ASC Stage Chart Generator
 	<tr>
 		<th>Team</th>
 		<th>Trailering</th>
+		<th>Total Miles</th>
+		<th>Official Time</th>
 		<th>Base Miles</th>
 		<th>Loop Miles</th>
 		<th>Penalty Miles</th>
-		<th>Total Miles</th>
-		<th>Official Time</th>
 		<th>Avg. MPH</th>
 	</tr>
 </thead>
@@ -59,11 +59,11 @@ ASC Stage Chart Generator
 		<tr>
 		<td> <b>#{{team.number}} - {{team.team}} </b></td>
 		<td> {{team.trailer}} </td>
+		<td> {{totalMiles}} </td>
+		<td> {{team.time}} </td>
 		<td> {{baseMiles}} </td>
 		<td> {{loopMiles}} </td>
 		<td> {{team.penalty}} </td>
-		<td> {{totalMiles}} </td>
-		<td> {{team.time}} </td>
 		<td> {{speed}} mph </td>
 		</tr>
 	{% endif %}
