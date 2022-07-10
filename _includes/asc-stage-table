@@ -67,7 +67,7 @@ ASC Stage Chart Generator
 		<td> {{team.trailer}} </td>
 		<td> {{totalMiles}} </td>
 		<td> {{team.time}} </td>
-		<td> {{team.checkpoint}} </td>
+		<td style="text-align:center"> {{team.checkpoint}} </td>
 		<td> {{baseMiles}} </td>
 		<td> {{loopMiles}} </td>
 		<td> {{team.penalty}} </td>
@@ -77,5 +77,6 @@ ASC Stage Chart Generator
 {% endfor %}
 </tbody>
 </table>
-✅ indicates checkpoint made - ❌ indicates checkpoint missed<br>
+<div style="margin:auto;text-align:center">✅ indicates checkpoint made - ❌ indicates checkpoint missed<br>
 <b>Last Updated at: <i>{{modified}}</i></b>
+</div>
