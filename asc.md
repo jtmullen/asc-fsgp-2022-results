@@ -50,6 +50,8 @@ Optional Loops:
 - Topeka Loop: *43 miles*
 - Grand Island Loop: *21 miles*
 
+{% include alert text='Note: Results are not official until the stage is completed!' %}
+
 <h4>SOV Distance Completed</h4>
 
 {% include asc-stage-chart stage="stage1" class="sov" %}
