@@ -65,9 +65,9 @@ ASC Stage Chart Generator
 	{% assign axis = 30 %}
 {% endif %}
 {% if class == "sov" %}
-	{% assign caption = "Single Occupant Class" %}
+	{% assign caption = "Single Occupant Class <i>(Tap bars for details)</i>" %}
 {% else %}
-	{% assign caption = "Multi Occupant Class" %}
+	{% assign caption = "Multi Occupant Class <i>(Tap bars for details)</i>" %}
 {% endif %}
 <link rel='stylesheet' href='{{site.baseurl}}/assets/css/charts.min.css'><link rel="stylesheet" href="{{site.baseurl}}/assets/css/asc-style.css"><div id="legend-example-2"><table id="stacked-example-3" class="charts-css column hide-data show-heading show-labels show-primary-axis show-{{axis}}-secondary-axes data-spacing-10 multiple stacked">
   <caption> {{caption}} </caption>
