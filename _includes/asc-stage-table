@@ -31,7 +31,7 @@ ASC Stage Chart Generator
 		<th>Trailering</th>
 		<th>Total Miles</th>
 		<th>Official Time</th>
-		<th>Made Checkpoint</th>
+		<th>Checkpoint</th>
 		<th>Base Miles</th>
 		<th>Loop Miles</th>
 		<th>Penalty Miles</th>
@@ -77,5 +77,5 @@ ASC Stage Chart Generator
 {% endfor %}
 </tbody>
 </table>
-✅ indicates checkpoint made - ❌ indicates checkpoint missed
+✅ indicates checkpoint made - ❌ indicates checkpoint missed<br>
 <b>Last Updated at: <i>{{modified}}</i></b>
