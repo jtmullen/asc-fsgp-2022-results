@@ -50,11 +50,16 @@ ASC Stage Chart Generator
 			{% endif %}
 		{% endfor %}
 		{% assign totalMiles = baseMiles | plus:loopMiles %}
-		{% assign timeArr = team.time | split:":" %}
-		{% assign hours = timeArr[0] %}
-		{% assign hours = timeArr[1] | divided_by:60.0 |plus: hours %}
-		{% assign hours = timeArr[2] | divided_by:3600.0 |plus: hours %}
-		{% assign speed = totalMiles | divided_by:hours | round:1 %}
+		{% if team.time == "--" %}
+			{% assign speed = "--" %}
+		{% else %}
+			{% assign timeArr = team.time | split:":" %}
+			{% assign hours = timeArr[0] %}
+			{% assign hours = timeArr[1] | divided_by:60.0 |plus: hours %}
+			{% assign hours = timeArr[2] | divided_by:3600.0 |plus: hours %}
+			{% assign speed = totalMiles | divided_by:hours | round:1 %}
+		{% endif %}
+		
 		{% assign totalMiles = totalMiles | minus:team.penalty %}
 		<tr>
 		<td> <b>#{{team.number}} - {{team.team}} </b></td>
