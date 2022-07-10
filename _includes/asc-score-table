@@ -7,21 +7,21 @@ FSGP MOV Table Generator
 <thead>
   <tr>
   <th style="border-right-width: 3px"> </th>
+  <th colspan="4" style="text-align:center;border-right-width: 3px">Calculated Values</th>
   <th colspan="6" style="text-align:center;border-right-width: 3px">Data Points</th>
-  <th colspan="4" style="text-align:center;">Calculated Values</th>
   </tr>
   <tr>
   <th style="border-right-width: 3px;border-bottom-width: 3px;"> Team </th>
+  <th style="border-right-width: 3px;border-bottom-width: 3px;"> Score [S] </th>
+  <th style="border-bottom-width: 3px;"> Completion Factor [C] </th>
+  <th style="border-bottom-width: 3px;"> Speed Derating [T]</th>
+  <th style="border-right-width: 3px;border-bottom-width: 3px;"> Total External Energy [E] (kWh) </th>
   <th style="border-bottom-width: 3px;"> Miles </th>
   <th style="border-bottom-width: 3px;"> Person Miles [D]</th>
   <th style="border-bottom-width: 3px;"> Penalty Miles </th>
   <th style="border-bottom-width: 3px;"> Avg. Speed (mph)</th>
   <th style="border-bottom-width: 3px;"> Battery Capacity (kWh)</th>
   <th style="border-right-width: 3px;border-bottom-width: 3px;"> External Charging (kWh) </th>
-  <th style="border-bottom-width: 3px;"> Completion Factor [C] </th>
-  <th style="border-bottom-width: 3px;"> Speed Derating [T]</th>
-  <th style="border-right-width: 3px;border-bottom-width: 3px;"> Total External Energy [E] (kWh) </th>
-  <th style="border-right-width: 3px;border-bottom-width: 3px;"> Score [S] </th>
   </tr>
 </thead>
 <tbody>
@@ -29,16 +29,16 @@ FSGP MOV Table Generator
 {% if team.team != "modified" %}
 	<tr>
 		<td style="border-right-width: 3px;white-space: nowrap;"><b>#{{team.number}} - {{team.team}}</b></td>
+		<td style="border-right-width: 3px;"><b>{{team.score}}</b></td>
+		<td>{{team.completion}}</td>
+		<td>{{team.derate}}</td>
+		<td style="border-right-width: 3px;">{{team.total-ext}}</td>
 		<td>{{team.miles}}</td>
 		<td>{{team.person}}</td>
 		<td>{{team.penalty}}</td>
 		<td>{{team.speed}}</td>
 		<td>{{team.capacity}}</td>
-		<td style="border-right-width: 3px;">{{team.external}}</td>
-		<td>{{team.completion}}</td>
-		<td>{{team.derate}}</td>
-		<td style="border-right-width: 3px;">{{team.total-ext}}</td>
-		<td style="border-right-width: 3px;"><b>{{team.score}}</b></td>
+		<td style="border-right-width: 3px;">{{team.external}}</td>		
 	</tr>
 {% else %}
 {% assign modified = team.number %}
