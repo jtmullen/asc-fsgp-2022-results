@@ -8,15 +8,15 @@ ASC Stage Chart Generator
 {% for team in site.data.asc.[stage].[class] %}
 	{% if team.team == "data" %}
 		{% if team.number == "name" %}
-			{% for item in team | offset:5 %}
+			{% for item in team | offset:6 %}
 				{% assign name = name | push:item[1] %}
 			{% endfor %}
 		{% elsif team.number == "type" %}
-			{% for item in team | offset:5 %}
+			{% for item in team | offset:6 %}
 				{% assign type = type | push:item[1] %}
 			{% endfor %}
 		{% elsif team.number == "miles" %}
-			{% for item in team | offset:5 %}
+			{% for item in team | offset:6 %}
 				{% assign miles = miles | push:item[1] %}
 			{% endfor %}
 		{% elsif team.number == "modified" %}
@@ -31,6 +31,7 @@ ASC Stage Chart Generator
 		<th>Trailering</th>
 		<th>Total Miles</th>
 		<th>Official Time</th>
+		<th>Made Checkpoint</th>
 		<th>Base Miles</th>
 		<th>Loop Miles</th>
 		<th>Penalty Miles</th>
@@ -42,7 +43,7 @@ ASC Stage Chart Generator
 	{% if team.team != "data" %}
 		{% assign baseMiles = 0 %}
 		{% assign loopMiles = 0 %}
-		{% for item in team offset:5 %}
+		{% for item in team offset:6 %}
 			{% if type[forloop.index0] == "base" %}
 				{% assign baseMiles = baseMiles | plus:item[1] %}
 			{% else %}
@@ -66,6 +67,7 @@ ASC Stage Chart Generator
 		<td> {{team.trailer}} </td>
 		<td> {{totalMiles}} </td>
 		<td> {{team.time}} </td>
+		<td> {{team.checkpoint}} </td>
 		<td> {{baseMiles}} </td>
 		<td> {{loopMiles}} </td>
 		<td> {{team.penalty}} </td>
@@ -75,4 +77,5 @@ ASC Stage Chart Generator
 {% endfor %}
 </tbody>
 </table>
+✅ indicates checkpoint made - ❌ indicates checkpoint missed
 <b>Last Updated at: <i>{{modified}}</i></b>

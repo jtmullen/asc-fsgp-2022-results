@@ -1,9 +1,9 @@
-team,number,penalty,trailer,time,1,2,3,4
-data,name,,,,Independence to Topeka,Topeka Loop,Topeka to Grand Island,Grand Island Loop
-data,type,,,,base,loop,base,loop
-data,miles,,,,98.3,43,265,21
-Iowa State,9,0,No,--,,,,
-Minnesota,35,0,No,--,98.3,0,,
-Poly Montreal,55,0,Yes,--,45.1,0,,
-App State,828,0,No,--,98.3,0,,
-data,modified,9 July 2022 – 11:00pm US Central,,,,,,
+team,number,penalty,trailer,time,checkpoint,1,2,3,4
+data,name,,,,,Independence to Topeka,Topeka Loop,Topeka to Grand Island,Grand Island Loop
+data,type,,,,,base,loop,base,loop
+data,miles,,,,,98.3,43,265,21
+Iowa State,9,0,No,--,❌ ,,,,
+Minnesota,35,0,No,--,✅,98.3,0,,
+Poly Montreal,55,0,Yes,--,✅,45.1,0,,
+App State,828,0,No,--,✅,98.3,0,,
+data,modified,9 July 2022 – 11:00pm US Central,,,,,,,
