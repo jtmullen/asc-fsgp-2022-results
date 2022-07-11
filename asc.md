@@ -55,9 +55,9 @@ Optional Loops:
 
 <h4>SOV Distance Completed</h4>
 
-**1st Place**: #32 Principia
-**2nd Place**:  #3 Kentucky
-**3rd Place**:  #4 MIT
+**1st Place**: #32 Principia<br>
+**2nd Place**:  #3 Kentucky<br>
+**3rd Place**:  #4 MIT<br>
 
 {% include asc-stage-chart stage="stage1" class="sov" %}
 <br>&nbsp;
