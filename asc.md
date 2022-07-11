@@ -69,7 +69,8 @@ Optional Loops:
 
 <h4>MOV Scores</h4>
 
-*For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered*
+<i>For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered</i>
+
 
 **1st Place**:  #35 Minnesota
 **2nd Place**:  #55 Poly Montreal
