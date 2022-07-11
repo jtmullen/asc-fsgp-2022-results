@@ -8,15 +8,15 @@ ASC Stage Chart Generator
 {% for team in site.data.asc.[stage].[class] %}
 	{% if team.team == "data" %}
 		{% if team.number == "name" %}
-			{% for item in team | offset:6 %}
+			{% for item in team | offset:7 %}
 				{% assign name = name | push:item[1] %}
 			{% endfor %}
 		{% elsif team.number == "type" %}
-			{% for item in team | offset:6 %}
+			{% for item in team | offset:7 %}
 				{% assign type = type | push:item[1] %}
 			{% endfor %}
 		{% elsif team.number == "miles" %}
-			{% for item in team | offset:6 %}
+			{% for item in team | offset:7 %}
 				{% assign miles = miles | push:item[1] %}
 			{% endfor %}
 		{% elsif team.number == "modified" %}
@@ -43,7 +43,7 @@ ASC Stage Chart Generator
 	{% if team.team != "data" %}
 		{% assign baseMiles = 0 %}
 		{% assign loopMiles = 0 %}
-		{% for item in team offset:6 %}
+		{% for item in team offset:7 %}
 			{% if type[forloop.index0] == "base" %}
 				{% assign baseMiles = baseMiles | plus:item[1] %}
 			{% else %}
@@ -71,7 +71,7 @@ ASC Stage Chart Generator
 		<td> {{baseMiles}} </td>
 		<td> {{loopMiles}} </td>
 		<td> {{team.penalty}} </td>
-		<td> -- mph </td>
+		<td> {{team.speed}} mph </td>
 		</tr>
 	{% endif %}
 {% endfor %}
