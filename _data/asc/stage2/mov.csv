@@ -1,0 +1,9 @@
+team,number,penalty,trailer,time,checkpoint,1,2,3,4,5
+data,name,,,,,Grand Island to Gering,Gering to Casper,Casper Loop,Casper to Lander,Lander Loop
+data,type,,,,,base,base,loop,base,
+data,miles,,,,,311,198,21,156,33
+Iowa State,9,-,No,--,,,,,,
+Minnesota,35,-,No,--,,,,,,
+Poly Montreal,55,-,No,--,,,,,,
+App State,828,-,No,--,,,,,,
+data,modified,10 July 2022 – 11:00pm US Central,,,,,,,,

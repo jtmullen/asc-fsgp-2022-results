@@ -38,7 +38,7 @@ FSGP MOV Table Generator
 		<td>{{team.penalty}}</td>
 		<td>{{team.speed}}</td>
 		<td>{{team.capacity}}</td>
-		<td style="border-right-width: 3px;">{{team.external}}</td>		
+		<td style="border-right-width: 3px;">{{team.external}}</td>				
 	</tr>
 {% else %}
 {% assign modified = team.number %}

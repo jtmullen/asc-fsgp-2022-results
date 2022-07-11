@@ -18,6 +18,8 @@ ASC 2022 is an 8 day 1400+ mile competition split into 4 stages. Teams will driv
 
 The 2022 Event is once again a distance-based competition. The primary goal is to compelete the 1470 mile base route, however teams will have numerous opportuntities to complete additional optional loop segments to gain addition miles (or person miles for Multi-Occupant Vehicles) which will help increase their ranking. 
 
+Distance completed will be updated at each stage stop & checkpoint. Official time, penalties, and MOV score will be updated at the end of each stage. 
+
 ### Single Occupant Vehicle (SOV) Class
 The single occupant class is scored solely on miles driven. The team that completes the most miles will win the event. Stage winners are also determined by miles driven on that stage. In the event of a tie, elapsed time is the tie-breaker. 
 
@@ -50,9 +52,12 @@ Optional Loops:
 - Topeka Loop: *43 miles*
 - Grand Island Loop: *21 miles*
 
-{% include alert text='Note: Results are not official until the stage is completed!' %}
 
 <h4>SOV Distance Completed</h4>
+
+**1st Place**: #32 Principia
+**2nd Place**:  #3 Kentucky
+**3rd Place**:  #4 MIT
 
 {% include asc-stage-chart stage="stage1" class="sov" %}
 <br>&nbsp;
@@ -62,6 +67,16 @@ Optional Loops:
 <br>&nbsp;
 <br>&nbsp;<br>
 
+<h4>MOV Scores</h4>
+
+*For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered*
+
+**1st Place**:  #35 Minnesota
+**2nd Place**:  #55 Poly Montreal
+**3rd Place**: #828 App State
+
+
+{% include asc-score-table stage="stage1" %}
 
 <h4>MOV Distance Completed</h4>
 
@@ -71,6 +86,41 @@ Optional Loops:
 
 {% include asc-stage-table stage="stage1" class="mov" %}
 
+
+-----
+
+## Stage 2
+
+**July 11th - 13th: Grand Island, NE to Lander, WY  via Gering, NE and Casper, WY**
+
+Base Route Segments:
+- Grand Island to Gering: *311 miles*
+- Gering to Casper: *198 miles*
+- Casper to Lander: *156 miles*
+
+Optional Loops:
+- Casper Loop: *21 miles*
+- Lander Loop: *33 miles*
+
+
+<h4>SOV Distance Completed</h4>
+
+{% include asc-stage-chart stage="stage2" class="sov" %}
+<br>&nbsp;
+<br>&nbsp;
+
+{% include asc-stage-table stage="stage2" class="sov" %}
+<br>&nbsp;
+<br>&nbsp;<br>
+
 <h4>MOV Scores</h4>
 
-{% include asc-score-table stage="stage1" %}
+{% include asc-score-table stage="stage2" %}
+
+<h4>MOV Distance Completed</h4>
+
+{% include asc-stage-chart stage="stage2" class="mov" %}
+<br>&nbsp;
+<br>&nbsp;
+
+{% include asc-stage-table stage="stage2" class="mov" %}
