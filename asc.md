@@ -45,19 +45,22 @@ Multi-Occupant vehicles are scored on a variety of factors including person-mile
 **July 9th & 10th: Independence, MO to Grand Island, NE via Topeka, KS**
 
 Base Route Segments:
-- Independence to Topeka: *98 miles*
-- Topeka to Grand Island: *265 miles*
+- Independence to Topeka: *98.3 miles*
+- Topeka to Grand Island: *265.2 miles*
 
 Optional Loops:
-- Topeka Loop: *43 miles*
-- Grand Island Loop: *21 miles*
+- Topeka Loop: *43.3 miles*
+- Grand Island Loop: *21.0 miles*
 
 
 <h4>SOV Distance Completed</h4>
 
-**1st Place**: #32 Principia<br>
-**2nd Place**:  #3 Kentucky<br>
-**3rd Place**:  #4 MIT<br>
+**1st Place**: #32 Principia
+
+**2nd Place**:  #3 Kentucky
+
+**3rd Place**:  #4 MIT
+
 
 {% include asc-stage-chart stage="stage1" class="sov" %}
 <br>&nbsp;
