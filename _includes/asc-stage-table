@@ -71,7 +71,7 @@ ASC Stage Chart Generator
 		<td> {{baseMiles}} </td>
 		<td> {{loopMiles}} </td>
 		<td> {{team.penalty}} </td>
-		<td> {{speed}} mph </td>
+		<td> -- mph </td>
 		</tr>
 	{% endif %}
 {% endfor %}
