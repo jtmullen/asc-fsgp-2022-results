@@ -65,7 +65,7 @@ ASC Stage Chart Generator
 		<tr>
 		<td> <b>#{{team.number}} - {{team.team}} </b></td>
 		<td> {{team.trailer}} </td>
-		<td> {{totalMiles}} </td>
+		<td><b>{{totalMiles}}</b></td>
 		<td> {{team.time}} </td>
 		<td style="text-align:center"> {{team.checkpoint}} </td>
 		<td> {{baseMiles}} </td>

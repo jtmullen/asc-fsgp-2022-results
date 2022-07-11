@@ -70,11 +70,10 @@ Optional Loops:
 <h4>MOV Scores</h4>
 
 <i>For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered</i>
-
-
-**1st Place**:  #35 Minnesota
-**2nd Place**:  #55 Poly Montreal
-**3rd Place**: #828 App State
+<br>
+<b>1st Place:</b>  #35 Minnesota<br>
+<b>2nd Place:</b>  #55 Poly Montreal<br>
+<b>3rd Place:</b> #828 App State<br>
 
 
 {% include asc-score-table stage="stage1" %}
@@ -86,42 +85,3 @@ Optional Loops:
 <br>&nbsp;
 
 {% include asc-stage-table stage="stage1" class="mov" %}
-
-
------
-
-## Stage 2
-
-**July 11th - 13th: Grand Island, NE to Lander, WY  via Gering, NE and Casper, WY**
-
-Base Route Segments:
-- Grand Island to Gering: *311 miles*
-- Gering to Casper: *198 miles*
-- Casper to Lander: *156 miles*
-
-Optional Loops:
-- Casper Loop: *21 miles*
-- Lander Loop: *33 miles*
-
-
-<h4>SOV Distance Completed</h4>
-
-{% include asc-stage-chart stage="stage2" class="sov" %}
-<br>&nbsp;
-<br>&nbsp;
-
-{% include asc-stage-table stage="stage2" class="sov" %}
-<br>&nbsp;
-<br>&nbsp;<br>
-
-<h4>MOV Scores</h4>
-
-{% include asc-score-table stage="stage2" %}
-
-<h4>MOV Distance Completed</h4>
-
-{% include asc-stage-chart stage="stage2" class="mov" %}
-<br>&nbsp;
-<br>&nbsp;
-
-{% include asc-stage-table stage="stage2" class="mov" %}
