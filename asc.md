@@ -104,6 +104,8 @@ Optional Loops:<br>
 - Casper Loop: <i>20.8 miles</i><br>
 - Lander Loop: <i>33.4 miles</i><br>
 
+<br>&nbsp;<br>
+
 {% include alert info='Note: Results are not official until the end of the stage!' %}
 
 <h4>SOV Distance Completed</h4>
