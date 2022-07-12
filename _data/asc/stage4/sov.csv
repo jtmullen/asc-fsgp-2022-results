@@ -1,0 +1,11 @@
+team,number,penalty,trailer,time,speed,checkpoint,1
+data,name,,,,,,Pocatello to Twin Falls
+data,type,,,,,,base
+data,miles,,,,,,129.1
+Kentucky,3,-,No,--,-,,
+MIT,4,-,No,--,-,,
+Berkeley,6,-,No,--,-,,
+Illinois,22,-,No,--,-,,
+Principia,32,-,No,--,-,,
+ETS,101,-,No,--,-,,
+data,modified,12 July 2022 – 9:30am US Mountain,,,,,

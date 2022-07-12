@@ -1,0 +1,11 @@
+team,number,penalty,trailer,time,speed,checkpoint,1,2,3,4
+data,name,,,,,,Lander to Montpelier,Montpelier Loop,Montpelier to Pocatello,Pocatello Loop
+data,type,,,,,,base,Loop,base,loop
+data,miles,,,,,,225.7,46.2,86.6,32.8
+Kentucky,3,-,No,--,-,,,,,
+MIT,4,-,No,--,-,,,,,
+Berkeley,6,-,No,--,-,,,,,
+Illinois,22,-,No,--,-,,,,,
+Principia,32,-,No,--,-,,,,,
+ETS,101,-,No,--,-,,,,,
+data,modified,12 July 2022 – 9:30am US Mountain,,,,,,,,

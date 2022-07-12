@@ -133,3 +133,89 @@ Optional Loops:<br>
 <br>&nbsp;
 
 {% include asc-stage-table stage="stage2" class="mov" %}
+
+
+<hr>
+
+<h2 id="stage-3">Stage 3</h2>
+
+<b>July 14th - 15th: Lander, WY to Pocatello, ID via Montpelier, ID</b>
+&nbsp;<br>
+Base Route Segments:<br>
+- Lander to Montpelier: <i>225.7 miles</i><br>
+- Montpelier to Pocatello: <i>86.6 miles</i><br>
+&nbsp;<br>
+Optional Loops:<br>
+- Montpelier Loop: <i>46.2 miles</i><br>
+- Pocatello Loop: <i>32.8 miles</i><br>
+
+<br>&nbsp;<br>
+
+{% include alert info='Note: Results are not official until the end of the stage!' %}
+
+<h4>SOV Distance Completed</h4>
+
+
+{% include asc-stage-chart stage="stage3" class="sov" %}
+<br>&nbsp;
+<br>&nbsp;
+
+{% include asc-stage-table stage="stage3" class="sov" %}
+<br>&nbsp;
+<br>&nbsp;<br>
+
+<h4>MOV Scores</h4>
+
+<i>For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered</i><br>&nbsp;<br>
+
+
+{% include asc-score-table stage="stage3" %}
+
+<h4>MOV Distance Completed</h4>
+
+{% include asc-stage-chart stage="stage3" class="mov" %}
+<br>&nbsp;
+<br>&nbsp;
+
+{% include asc-stage-table stage="stage3" class="mov" %}
+
+
+<hr>
+
+<h2 id="stage-4">Stage 4</h2>
+
+<b>July 16th: Pocatello, ID to Twin Falls, ID</b>
+&nbsp;<br>
+Base Route Segments:<br>
+- Pocatello to Twin Falls: <i>129.1 miles</i><br>
+
+<br>&nbsp;<br>
+
+{% include alert info='Note: Results are not official until the end of the stage!' %}
+
+<h4>SOV Distance Completed</h4>
+
+
+{% include asc-stage-chart stage="stage4" class="sov" %}
+<br>&nbsp;
+<br>&nbsp;
+
+{% include asc-stage-table stage="stage4" class="sov" %}
+<br>&nbsp;
+<br>&nbsp;<br>
+
+<h4>MOV Scores</h4>
+
+<i>For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered</i><br>&nbsp;<br>
+
+
+{% include asc-score-table stage="stage4" %}
+
+<h4>MOV Distance Completed</h4>
+
+{% include asc-stage-chart stage="stage4" class="mov" %}
+<br>&nbsp;
+<br>&nbsp;
+
+{% include asc-stage-table stage="stage4" class="mov" %}
+
