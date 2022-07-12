@@ -12,7 +12,7 @@ FSGP MOV Table Generator
   </tr>
   <tr>
   <th style="border-right-width: 3px;border-bottom-width: 3px;"> Team </th>
-  <th style="border-right-width: 3px;border-bottom-width: 3px;"> Rank [D x C x T] </th>
+  <th style="border-right-width: 3px;border-bottom-width: 3px;"> Rank [DxCxT] </th>
   <th style="border-bottom-width: 3px;"> Completion Factor [C] </th>
   <th style="border-bottom-width: 3px;"> Speed Derating [T]</th>
   <th style="border-right-width: 3px;border-bottom-width: 3px;"> Total External Energy [E] (kWh) </th>
