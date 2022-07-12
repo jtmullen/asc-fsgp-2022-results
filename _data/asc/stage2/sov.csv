@@ -2,10 +2,10 @@ team,number,penalty,trailer,time,speed,checkpoint,1,2,3,4,5
 data,name,,,,,,Grand Island to Gering,Gering to Casper,Casper Loop,Casper to Lander,Lander Loop
 data,type,,,,,,base,base,loop,base,loop
 data,miles,,,,,,311.2,198.3,20.8,156.4,33.4
-Kentucky,3,-,No,--,-,,,,,,
+Kentucky,3,-,No,--,-,✅,311.2,,,,
 MIT,4,-,No,--,-,✅,311.2,,,,
-Berkeley,6,-,No,--,-,,,,,,
+Berkeley,6,-,No,--,-,✅,311.2,,,,
 Illinois,22,-,No,--,-,✅,311.2,,,,
 Principia,32,-,No,--,-,✅,311.2,,,,
 ETS,101,-,No,--,-,✅,311.2,,,,
-data,modified,12 July 2022 – 9:30am US Mountain,,,,,,,,,
+data,modified,12 July 2022 – 12:00pm US Mountain,,,,,,,,,
