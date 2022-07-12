@@ -93,16 +93,16 @@ Optional Loops:
 
 <h2 id="stage-2">Stage 2</h2>
 
-<b>July 11th - 13th: Grand Island, NE to Lander, WY via Gering, NE and Casper, WY</b<
-
-Base Route Segments:
-- Grand Island to Gering: <i>311.2 miles</i>
-- Gering to Lander: <i>198.3 miles</i>
-- Casper to Lander: <i>156.4</i>
-
-Optional Loops:
-- Casper Loop: <i>20.8 miles</i>
-- Lander Loop: <i>33.4 miles</i>
+<b>July 11th - 13th: Grand Island, NE to Lander, WY via Gering, NE and Casper, WY</b>
+&nbsp;<br>
+Base Route Segments:<br>
+- Grand Island to Gering: <i>311.2 miles</i><br>
+- Gering to Lander: <i>198.3 miles</i><br>
+- Casper to Lander: <i>156.4</i><br>
+&nbsp;<br>
+Optional Loops:<br>
+- Casper Loop: <i>20.8 miles</i><br>
+- Lander Loop: <i>33.4 miles</i><br>
 
 {% include alert info='Note: Results are not official until the end of the stage!' %}
 
@@ -119,7 +119,8 @@ Optional Loops:
 
 <h4>MOV Scores</h4>
 
-<i>For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered</i>
+<i>For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered</i><br>&nbsp;<br>
+
 
 {% include asc-score-table stage="stage2" %}
 

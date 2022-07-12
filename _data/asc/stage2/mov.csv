@@ -3,7 +3,7 @@ data,name,,,,,Grand Island to Gering,Gering to Casper,Casper Loop,Casper to Land
 data,type,,,,,base,base,loop,base,loop
 data,miles,,,,,311.2,198.3,20.8,156.4,33.4
 Iowa State,9,-,No,--,,,,,,
-Minnesota,35,-,No,--,,,,,,
+Minnesota,35,-,No,--,✅,311.2,,,,
 Poly Montreal,55,-,No,--,✅,311.2,,,,
-App State,828,-,No,--,✅,311.2,,,,
+App State,828,-,No,--,,,,,,
 data,modified,12 July 2022 – 9:30am US Mountain,,,,,,,,
