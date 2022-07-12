@@ -55,11 +55,10 @@ Optional Loops:
 
 <h4>SOV Distance Completed</h4>
 
-**1st Place**: #32 Principia
-
-**2nd Place**:  #3 Kentucky
-
-**3rd Place**:  #4 MIT
+<b>1st Place:</b> #32 Principia<br>
+<b>2nd Place:</b>  #3 Kentucky<br>
+<b>3rd Place:</b>  #4 MIT<br>
+&nbsp;<br>
 
 
 {% include asc-stage-chart stage="stage1" class="sov" %}
@@ -77,7 +76,7 @@ Optional Loops:
 <b>1st Place:</b>  #35 Minnesota<br>
 <b>2nd Place:</b>  #55 Poly Montreal<br>
 <b>3rd Place:</b> #828 App State<br>
-
+&nbsp;<br>
 
 {% include asc-score-table stage="stage1" %}
 
@@ -88,3 +87,46 @@ Optional Loops:
 <br>&nbsp;
 
 {% include asc-stage-table stage="stage1" class="mov" %}
+
+
+<hr>
+
+<h2 id="stage-2">Stage 2</h2>
+
+<b>July 11th - 13th: Grand Island, NE to Lander, WY via Gering, NE and Casper, WY</b<
+
+Base Route Segments:
+- Grand Island to Gering: <i>311.2 miles</i>
+- Gering to Lander: <i>198.3 miles</i>
+- Casper to Lander: <i>156.4</i>
+
+Optional Loops:
+- Casper Loop: <i>20.8 miles</i>
+- Lander Loop: <i>33.4 miles</i>
+
+{% include alert info='Note: Results are not official until the end of the stage!' %}
+
+<h4>SOV Distance Completed</h4>
+
+
+{% include asc-stage-chart stage="stage2" class="sov" %}
+<br>&nbsp;
+<br>&nbsp;
+
+{% include asc-stage-table stage="stage2" class="sov" %}
+<br>&nbsp;
+<br>&nbsp;<br>
+
+<h4>MOV Scores</h4>
+
+<i>For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered</i>
+
+{% include asc-score-table stage="stage2" %}
+
+<h4>MOV Distance Completed</h4>
+
+{% include asc-stage-chart stage="stage2" class="mov" %}
+<br>&nbsp;
+<br>&nbsp;
+
+{% include asc-stage-table stage="stage2" class="mov" %}
