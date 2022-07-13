@@ -73,9 +73,9 @@ Optional Loops:
 
 <i>For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered</i>
 <br>
-<b>1st Place:</b>  #35 Minnesota<br>
-<b>2nd Place:</b>  #55 Poly Montreal<br>
-<b>3rd Place:</b> #828 App State<br>
+<b>1st Place:</b> #35 Minnesota<br>
+<b>2nd Place:</b> #828 App State<br>
+<b>3rd Place:</b> #55 Poly Montreal<br>
 &nbsp;<br>
 
 {% include asc-score-table stage="stage1" %}
