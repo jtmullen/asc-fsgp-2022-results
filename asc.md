@@ -98,7 +98,7 @@ Optional Loops:
 Base Route Segments:<br>
 - Grand Island to Gering: <i>311.2 miles</i><br>
 - Gering to Lander: <i>198.3 miles</i><br>
-- Casper to Lander: <i>156.4</i><br>
+- Casper to Lander: <i>156.4 miles</i><br>
 &nbsp;<br>
 Optional Loops:<br>
 - Casper Loop: <i>20.8 miles</i><br>
