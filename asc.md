@@ -56,8 +56,8 @@ Optional Loops:
 <h4>SOV Distance Completed</h4>
 
 <b>1st Place:</b> #32 Principia<br>
-<b>2nd Place:</b>  #3 Kentucky<br>
-<b>3rd Place:</b>  #4 MIT<br>
+<b>2nd Place:</b>  #4 MIT<br>
+<b>3rd Place:</b>  #3 Kentucky<br>
 &nbsp;<br>
 
 
