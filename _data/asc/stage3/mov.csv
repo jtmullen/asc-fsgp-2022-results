@@ -2,8 +2,8 @@ team,number,penalty,trailer,time,speed,checkpoint,1,2,3,4
 data,name,,,,,,Lander to Montpelier,Montpelier Loop,Montpelier to Pocatello,Pocatello Loop
 data,type,,,,,,base,Loop,base,loop
 data,miles,,,,,,225.7,46.2,86.6,32.8
-Iowa State,9,-,No,--,-,,,,,
-Minnesota,35,-,No,--,-,,,,,
-Poly Montreal,55,-,No,--,-,,,,,
-App State,828,-,No,--,-,,,,,
-data,modified,12 July 2022 – 9:30am US Mountain,,,,,,,,
+Iowa State,9,-,No,--,-,❌,0,0,,
+Minnesota,35,-,No,--,-,✅,225.7,0,,
+Poly Montreal,55,-,No,--,-,✅,225.7,0,,
+App State,828,-,No,--,-,✅,225.7,0,,
+data,modified,15 July 2022 – 2:30pm US Mountain,,,,,,,,

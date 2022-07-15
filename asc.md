@@ -154,7 +154,7 @@ Base Route Segments:<br>
 &nbsp;<br>
 Optional Loops:<br>
 - Montpelier Loop: <i>46.2 miles</i><br>
-- Pocatello Loop: <i>32.8 miles</i><br>
+- Pocatello Loop: <i>33.2 miles</i><br>
 
 <br>&nbsp;<br>
 
