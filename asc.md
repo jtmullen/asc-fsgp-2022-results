@@ -40,17 +40,49 @@ Multi-Occupant vehicles are scored on a variety of factors including person-mile
 
 -----
 
-## Stage 1
 
-**July 9th & 10th: Independence, MO to Grand Island, NE via Topeka, KS**
+<h2 id="overall">Overall</h2>
 
-Base Route Segments:
-- Independence to Topeka: *98.3 miles*
-- Topeka to Grand Island: *265.2 miles*
+<h4>SOV Class</h4>
 
-Optional Loops:
-- Topeka Loop: *43.3 miles*
-- Grand Island Loop: *21.0 miles*
+
+{% include asc-stage-chart stage="overall" class="sov" %}
+<br>&nbsp;
+<br>&nbsp;
+
+{% include asc-stage-table stage="overall" class="sov" %}
+<br>&nbsp;
+<br>&nbsp;<br>
+
+<h4>MOV Class Scores</h4>
+
+<i>For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered</i><br>&nbsp;<br>
+
+
+{% include asc-final-score %}
+
+<h4>MOV Distance Completed</h4>
+
+{% include asc-stage-chart stage="overall" class="mov" %}
+<br>&nbsp;
+<br>&nbsp;
+
+{% include asc-stage-table stage="overall" class="mov" %}
+
+
+<hr>
+
+<h2 id="stage-1">Stage 1</h2>
+
+<b>July 9th & 10th: Independence, MO to Grand Island, NE via Topeka, KS</b>
+&nbsp;<br>
+Base Route Segments:<br>
+- Independence to Topeka: <i>98.3 miles</i><br>
+- Topeka to Grand Island: <i>265.2 miles</i><br>
+&nbsp;<br>
+Optional Loops:<br>
+- Topeka Loop: <i>43.3 miles</i><br>
+- Grand Island Loop: <i>21.0 miles</i><br>
 
 
 <h4>SOV Distance Completed</h4>
@@ -178,8 +210,8 @@ Optional Loops:<br>
 <i>For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered</i><br>&nbsp;<br>
 <br>
 <b>1st Place:</b> #828 App State<br>
-<b>2nd Place:</b> #35 Minnesota<br>
-<b>3rd Place:</b> #55 Poly Montreal<br>
+<b>2nd Place:</b> #55 Poly Montreal<br>
+<b>3rd Place:</b> #35 Minnesota<br>
 &nbsp;<br>
 
 {% include asc-score-table stage="stage3" %}
