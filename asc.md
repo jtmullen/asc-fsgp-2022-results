@@ -44,8 +44,12 @@ Multi-Occupant vehicles are scored on a variety of factors including person-mile
 
 <h4>SOV Class</h4>
 
+<b>1st Place:</b>  #4 MIT<br>
+<b>2nd Place:</b> #32 Principia<br>
+<b>3rd Place:</b>  #3 Kentucky<br>
+&nbsp;<br>
 
-{% include asc-stage-chart stage="overall" class="sov" %}
+{% include asc-final-chart stage="overall" class="sov" %}
 <br>&nbsp;
 <br>&nbsp;
 
@@ -55,14 +59,17 @@ Multi-Occupant vehicles are scored on a variety of factors including person-mile
 
 <h4>MOV Class Scores</h4>
 
-<i>For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered</i><br>&nbsp;<br>
-
+<br>
+<b>1st Place:</b> #32 Minnesota<br>
+<b>2nd Place:</b> #828 App State<br>
+<b>3rd Place:</b> #55 Poly Montreal<br>
+&nbsp;<br>
 
 {% include asc-final-score %}
 
 <h4>MOV Distance Completed</h4>
 
-{% include asc-stage-chart stage="overall" class="mov" %}
+{% include asc-final-chart stage="overall" class="mov" %}
 <br>&nbsp;
 <br>&nbsp;
 
