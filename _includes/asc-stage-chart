@@ -39,7 +39,22 @@ ASC Stage Chart Generator
 {% endfor %}
 {% assign full = 200 %}
 {% assign axis = 2 %}
-{% if most_miles > 900 %}
+{% if most_miles > 1800 %}
+	{% assign full = 2000 %}
+	{% assign axis = 10 %}
+{% elsif most_miles > 1600 %}
+	{% assign full = 1800 %}
+	{% assign axis = 9 %}
+{% elsif most_miles > 1400 %}
+	{% assign full = 1600 %}
+	{% assign axis = 8 %}
+{% elsif most_miles > 1200 %}
+	{% assign full = 1400 %}
+	{% assign axis = 7 %}
+{% elsif most_miles > 1000 %}
+	{% assign full = 1200 %}
+	{% assign axis = 6 %}
+{% elsif most_miles > 900 %}
 	{% assign full = 1000 %}
 	{% assign axis = 10 %}
 {% elsif most_miles > 800 %}
