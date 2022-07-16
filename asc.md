@@ -40,6 +40,37 @@ Multi-Occupant vehicles are scored on a variety of factors including person-mile
 
 -----
 
+<h2 id="overall">Overall</h2>
+
+<h4>SOV Class</h4>
+
+
+{% include asc-stage-chart stage="overall" class="sov" %}
+<br>&nbsp;
+<br>&nbsp;
+
+{% include asc-stage-table stage="overall" class="sov" %}
+<br>&nbsp;
+<br>&nbsp;<br>
+
+<h4>MOV Class Scores</h4>
+
+<i>For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered</i><br>&nbsp;<br>
+
+
+{% include asc-final-score %}
+
+<h4>MOV Distance Completed</h4>
+
+{% include asc-stage-chart stage="overall" class="mov" %}
+<br>&nbsp;
+<br>&nbsp;
+
+{% include asc-stage-table stage="overall" class="mov" %}
+
+
+<hr>
+
 <h2 id="stage-1">Stage 1</h2>
 
 <b>July 9th & 10th: Independence, MO to Grand Island, NE via Topeka, KS</b>
@@ -208,6 +239,10 @@ Base Route Segments:<br>
 
 <h4>SOV Distance Completed</h4>
 
+<b>1st Place:</b>  #22 Illinois<br>
+<b>2nd Place:</b> #101 ETS<br>
+<b>3rd Place:</b>   #6 Berkeley<br>
+&nbsp;<br>
 
 {% include asc-stage-chart stage="stage4" class="sov" %}
 <br>&nbsp;
@@ -220,7 +255,11 @@ Base Route Segments:<br>
 <h4>MOV Scores</h4>
 
 <i>For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered</i><br>&nbsp;<br>
-
+<br>
+<b>1st Place:</b> #55 Poly Montreal<br>
+<b>2nd Place:</b> #828 App State<br>
+<b>3rd Place:</b> #35 Minnesota<br>
+&nbsp;<br>
 
 {% include asc-score-table stage="stage4" %}
 
