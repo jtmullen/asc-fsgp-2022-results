@@ -242,8 +242,6 @@ Base Route Segments:<br>
 
 <br>&nbsp;<br>
 
-{% include alert info='Note: Results are not official until the end of the stage!' %}
-
 <h4>SOV Distance Completed</h4>
 
 <b>1st Place:</b>  #22 Illinois<br>
