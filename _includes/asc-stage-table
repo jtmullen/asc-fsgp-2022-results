@@ -63,11 +63,11 @@ ASC Stage Chart Generator
 		
 		{% assign totalMiles = totalMiles | minus:team.penalty %}
 		<tr>
-		<td> <b>#{{team.number}} - {{team.team}} </b></td>
+		<td style="white-space: nowrap;"> <b>#{{team.number}} - {{team.team}} </b></td>
 		<td> {{team.trailer}} </td>
 		<td><b>{{totalMiles}}</b></td>
 		<td> {{team.time}} </td>
-		<td style="text-align:center"> {{team.checkpoint}} </td>
+		<td style="text-align:center; white-space: nowrap;"> {{team.checkpoint}} </td>
 		<td> {{baseMiles}} </td>
 		<td> {{loopMiles}} </td>
 		<td> {{team.penalty}} </td>
