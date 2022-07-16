@@ -158,10 +158,12 @@ Optional Loops:<br>
 
 <br>&nbsp;<br>
 
-{% include alert info='Note: Results are not official until the end of the stage!' %}
-
 <h4>SOV Distance Completed</h4>
 
+<b>1st Place:</b>  #4 MIT<br>
+<b>2nd Place:</b> #32 Principia<br>
+<b>3rd Place:</b> #22 Illinois<br>
+&nbsp;<br>
 
 {% include asc-stage-chart stage="stage3" class="sov" %}
 <br>&nbsp;
@@ -174,7 +176,11 @@ Optional Loops:<br>
 <h4>MOV Scores</h4>
 
 <i>For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered</i><br>&nbsp;<br>
-
+<br>
+<b>1st Place:</b> #828 App State<br>
+<b>2nd Place:</b> #35 Minnesota<br>
+<b>3rd Place:</b> #55 Poly Montreal<br>
+&nbsp;<br>
 
 {% include asc-score-table stage="stage3" %}
 
