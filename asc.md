@@ -35,7 +35,7 @@ Multi-Occupant vehicles are scored on a variety of factors including person-mile
 <a href="#stage-2" class="button special" style="margin:5px">Stage 2</a>
 <a href="#stage-3" class="button special" style="margin:5px">Stage 3</a>
 <a href="#stage-4" class="button special" style="margin:5px">Stage 4</a>
-<a href="#stage-4" class="button special" style="margin:5px">Overall</a>
+<a href="#overall" class="button special" style="margin:5px">Overall</a>
 </ul>
 
 -----
