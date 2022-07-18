@@ -78,7 +78,7 @@ Multi-Occupant vehicles are scored on a variety of factors including person-mile
 
 <h4>Inspector Awards</h4>
 
-Each year the ASC staff gives out awards to recognize achievements by teams that are ancillary to winning the competition. Here are this years inspector awards: <br>
+Each year the ASC staff gives out awards to recognize other achievements by teams during the competition. Here are this years inspector awards: <br>
 - <b>Safety:</b> Illinois<br>
 - <b>Battery Pack:</b> MIT<br>
 - <b>Electrical Design:</b> Appalachian State<br>
