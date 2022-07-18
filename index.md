@@ -1,7 +1,7 @@
 ---
 layout: home
 title: #ASC2022
-landing-title: 'Happening Now: American Solar Challenge'
+landing-title: 'Full 2022 Results Available'
 currently: ''
 description: null
 image: null
