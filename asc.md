@@ -64,6 +64,7 @@ Multi-Occupant vehicles are scored on a variety of factors including person-mile
 <b>2nd Place:</b> #828 App State<br>
 <b>3rd Place:</b> #55 Poly Montreal<br>
 &nbsp;<br>
+[Download Full Practicality Scoring Details](https://www.americansolarchallenge.org/ASC/wp-content/uploads/2022/07/ASC-2022-MOV-Practicality-Results.zip)<br>
 
 {% include asc-final-score %}
 
@@ -74,6 +75,21 @@ Multi-Occupant vehicles are scored on a variety of factors including person-mile
 <br>&nbsp;
 
 {% include asc-stage-table stage="overall" class="mov" %}
+
+<h4>Inspector Awards</h4>
+
+Each year the ASC staff gives out awards to recognize achievements by teams that are ancillary to winning the competition. Here are this years inspector awards: <br>
+- <b>Safety:</b> Illinois<br>
+- <b>Battery Pack:</b> MIT<br>
+- <b>Electrical Design:</b> Appalachian State<br>
+- <b>Perserverance:</b> Illinois<br>
+- <b>MOV Efficiency:</b> Polytechnique Montréal<br>
+- <b>Spirit of the Event:</b> Kentucky<br>
+- <b>Sportsmanship:</b> MIT<br>
+- <b>Aestetics:</b> Polytechnique Montréal<br>
+- <b>Abe Poot Teamwork:</b> <br>
+- <b>Best Overnight Car Repair:</b> ETS<br>
+- <b>Most Environmentally Friendly Solar Car:</b> Berkeley<br>
 
 
 <hr>
