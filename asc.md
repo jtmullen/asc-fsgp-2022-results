@@ -64,7 +64,7 @@ Multi-Occupant vehicles are scored on a variety of factors including person-mile
 <b>2nd Place:</b> #828 App State<br>
 <b>3rd Place:</b> #55 Poly Montreal<br>
 &nbsp;<br>
-[Download Full Practicality Scoring Details](https://www.americansolarchallenge.org/ASC/wp-content/uploads/2022/07/ASC-2022-MOV-Practicality-Results.zip)<br>
+<a href="https://www.americansolarchallenge.org/ASC/wp-content/uploads/2022/07/ASC-2022-MOV-Practicality-Results.zip">Download Full Practicality Scoring</a><br>
 
 {% include asc-final-score %}
 
