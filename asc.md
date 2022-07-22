@@ -87,7 +87,7 @@ Each year the ASC staff gives out awards to recognize other achievements by team
 - <b>Spirit of the Event:</b> Kentucky<br>
 - <b>Sportsmanship:</b> MIT<br>
 - <b>Aestetics:</b> Polytechnique Montréal<br>
-- <b>Abe Poot Teamwork:</b> <br>
+- <b>Abe Poot Teamwork:</b> Minnesota<br>
 - <b>Best Overnight Car Repair:</b> ETS<br>
 - <b>Most Environmentally Friendly Solar Car:</b> Berkeley<br>
 
