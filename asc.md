@@ -60,7 +60,7 @@ Multi-Occupant vehicles are scored on a variety of factors including person-mile
 <h4>MOV Class Scores</h4>
 
 <br>
-<b>1st Place:</b> #32 Minnesota<br>
+<b>1st Place:</b> #35 Minnesota<br>
 <b>2nd Place:</b> #828 App State<br>
 <b>3rd Place:</b> #55 Poly Montreal<br>
 &nbsp;<br>
